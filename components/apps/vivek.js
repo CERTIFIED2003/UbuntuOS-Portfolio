@@ -74,7 +74,7 @@ export class AboutVivek extends Component {
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
                 <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    <iframe src="https://github.com/sponsors/vivek9patel/button" title="Sponsor vivek9patel" width={"100%"} height={"100%"} ></iframe>
+                    {/* <iframe src="https://github.com/sponsors/vivek9patel/button" title="Sponsor vivek9patel" width={"100%"} height={"100%"} ></iframe> */}
                 </div>
             </>
         );
@@ -116,7 +116,7 @@ function About() {
                 <img className="w-full" src="./images/logos/bitmoji.png" alt="Vivek Patel Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>my name is <span className="font-bold">Vivek Patel</span> ,</div>
+                <div>My name is <span className="font-bold">Shubham Lal</span> ,</div>
                 <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Software Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -124,7 +124,16 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Computer Science. I've completed my 6 month SWE intern at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/HackerRank" target={"_blank"}>HackerRank</a> </u>, and now I'm looking for summer'23 internship opportunities! ( Hit me up <a className='text-underline' href='mailto:vivek.p9737@gmail.com'><u>@vivek.p9737@gmail.com</u></a> :) )</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">Student</span> currently pursuing Computer Science. 
+                {/* I've completed my 6 month SWE intern at 
+                <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/HackerRank" target={"_blank"}>HackerRank</a> </u>, 
+                and now I'm looking for summer'23 internship opportunities! 
+                ( Hit me up <a className='text-underline' href='mailto:vivek.p9737@gmail.com'><u>@vivek.p9737@gmail.com</u></a> :) */}
+                I've completed my 2nd Semester at 
+                <u className=' cursor-pointer '> <a href="https://www.bitcollege.in/" target={"_blank"}>Bengal Institute of Technology</a> </u>, 
+                and now I'm looking for Summer'23 Internship opportunities! 
+                ( Hit me up <a className='text-underline' href='mailto:vivek.p9737@gmail.com'><u>@lal.shubham027@gmail.com</u></a> :)
+                </li>
                 <li className=" mt-3 list-building"> I enjoy building awesome softwares that solve practical problems.</li>
                 <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A" target="_blank" rel="noreferrer"> tom scott's videos.</a></li>
                 <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
@@ -145,19 +154,27 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Pandit Deendayal Energy University- PDEU
+                        Bengal Institute of Technology
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
-                    <div className=" text-sm md:text-base">Computer Engineering</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9.35/10</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2021 - Present</div>
+                    <div className=" text-sm md:text-base">Computer Science Engineering</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9/10</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (GSEB)
+                        Class 10<sup>th</sup> (CBSE)
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2016 - 2018</div>
-                    <div className=" text-sm md:text-base">Maths, Physics, Chemistry</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2019</div>
+                    <div className=" text-sm md:text-base">Higher Secondary Education</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 93%</div>
+                </li>
+                <li className="list-disc mt-5">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        Class 12<sup>th</sup>
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2021</div>
+                    <div className=" text-sm md:text-base">Senior Secondary Education</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 81%</div>
                 </li>
             </ul>
         </>
@@ -178,7 +195,7 @@ function Skills() {
                     I've worked with a wide variety of programming languages & frameworks.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">front-end development, React.js & javascript!</strong></div>
+                    <div> My areas of expertise are both <strong className="text-ubt-gedit-orange">front-end and back-end development, React.js & javascript!</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
@@ -345,7 +362,7 @@ function Projects() {
             </div>
             <iframe src="https://github.com/sponsors/vivek9patel/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
-            {
+            {/* {
                 project_list.map((project, index) => {
                     const projectNameFromLink = project.link.split('/')
                     const projectName = projectNameFromLink[projectNameFromLink.length - 1]
@@ -383,7 +400,7 @@ function Projects() {
                         </a>
                     )
                 })
-            }
+            } */}
         </>
     )
 }

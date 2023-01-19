@@ -1,8 +1,8 @@
 {
-  "name": "vivek9patel-portfolio",
+  "name": "ubuntuos",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://vivek9patel.github.io/",
+  "homepage": "https://ubuntuos.pages.dev",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
