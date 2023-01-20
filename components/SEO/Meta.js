@@ -5,11 +5,11 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Ubuntu OS</title>
+            <title>Ubuntu OS | Shubham</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Ubuntu OS" />
+            <meta name="title" content="Ubuntu OS | Shubham" />
             <meta name="description"
-                content="Ubuntu OS recreated using NextJS and Tailwindcss." />
+                content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
             <meta name="author" content="Shubham Lal (certified2003)" />
             <meta name="keywords"
                 content="certified2003, certified2003's portfolio, certified2003 linux, ubuntu portfolio, shubham lal protfolio,shubham lal computer, shubham lal, shubham ubuntu, shubham lal ubuntu portfolio" />
@@ -22,22 +22,22 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="Ubuntu OS" />
+            <meta itemProp="name" content="Ubuntu OS | Shubham" />
             <meta itemProp="description"
-                content="Ubuntu OS recreated using NextJS and Tailwindcss." />
+                content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="Ubuntu OS" />
+            <meta name="twitter:title" content="Ubuntu OS | Shubham" />
             <meta name="twitter:description"
-                content="Ubuntu OS recreated using NextJS and Tailwindcss." />
+                content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
             <meta name="twitter:site" content="certified2003" />
             <meta name="twitter:creator" content="certified2003" />
             <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
-            <meta name="og:title" content="Ubuntu OS" />
+            <meta name="og:title" content="Ubuntu OS | Shubham" />
             <meta name="og:description"
-                content="Ubuntu OS recreated using NextJS and Tailwindcss." />
+                content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
             <meta name="og:image" content="images/logos/logo_1200.png" />
             <meta name="og:url" content="http://certified2003.github.io/" />
             <meta name="og:site_name" content="shubham lal Personal Portfolio" />
