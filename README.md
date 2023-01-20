@@ -1,5 +1,5 @@
 # Web simulation of UbuntuOS
-<a href="https://ubuntuos.pages.dev/" target="_blank" style="height: 40px !important;width: 140px !important;">Live Site</a>
+<a href="https://ubuntuos.pages.dev/" target="_blank" style="background: #fff !important; height: 40px !important;width: 140px !important;">Live Site</a>
 
 This is a recreated website of theme Ubuntu 20.04, made using Next.js & Tailwind CSS.
 If you want to edit this, Clone this project and edit the files in `/src/components`.
@@ -27,10 +27,10 @@ NEXT_PUBLIC_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
 NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
 
 ```
-`TEMPLATE STRUCTURE`
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/P9KR2q8"  ><a href="//imgur.com/a/P9KR2q8">EmailJS Template Structure Demo</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 into it. Replace \*your user id and your service ID with your values in your EmailJS service.
+`EmailJS TEMPLATE STRUCTURE`
+<img src="https://i.imgur.com/TYvKrdU.png" alt="Template Structure" />
 
 ## This project was made using Create Next App! Here is the scripts that u can run.
 
