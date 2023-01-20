@@ -29,7 +29,7 @@ NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
 ```
 
 into it. Replace \*your user id and your service ID with your values in your EmailJS service.
-`EmailJS TEMPLATE STRUCTURE`
+### `EmailJS Template Structure`
 ![EmailJS](https://user-images.githubusercontent.com/111045472/213639218-5226d9de-8b11-4a66-a4b6-d1b03a8ffac2.png)
 
 ## This project was made using Create Next App! Here is the scripts that u can run.
