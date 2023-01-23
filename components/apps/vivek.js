@@ -244,13 +244,22 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
+            name: "Image Generator AI",
+            date: "Jan 2023",
+            link: "https://github.com/certified2003/image-generator-ai",
+            description: [
+                "Think of an awesome imagination and make it surreal with this awesome Image Generator AI",
+            ],
+            domains: ["vite", "tailwindcss", "javascript"]
+        },
+        {
             name: "UbuntuOS",
             date: "Jan 2023",
             link: "https://github.com/certified2003/ubuntuOS-playground",
             description: [
                 "Website of theme Ubuntu 20.04, made using NEXT.js & Tailwind CSS",
             ],
-            domains: ["next.js", "javascript", "tailwindcss"]
+            domains: ["next.js", "tailwindcss", "javascript"]
         },
         {
             name: "Clang Social",
@@ -260,7 +269,7 @@ function Projects() {
             description: [
                 "A free-speech social media app where user can video chat, share their thoughts, images, follow and add friends. So what are you waiting for. Dive into this cool social media platform.",
             ],
-            domains: ["reactjs", "mongodb"]
+            domains: ["reactjs", "mongodb", "javascript"]
         },
         {
             name: "Clang Social App",
@@ -280,7 +289,7 @@ function Projects() {
             description: [
                 "Powered by Sanity databse, this social media app can be used to share images to the community out there.",
             ],
-            domains: ["reactjs", "sanity"]
+            domains: ["reactjs", "sanity", "javascript"]
         },
         {
             name: "Keeper",
@@ -289,7 +298,7 @@ function Projects() {
             description: [
                 "A very much Google Keep lookalike clone.",
             ],
-            domains: ["reactjs"]
+            domains: ["reactjs", "javascript"]
         },
         {
             name: "Infix Operations",

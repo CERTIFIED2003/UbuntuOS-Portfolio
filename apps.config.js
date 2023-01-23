@@ -8,6 +8,7 @@ import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
 import { displayAboutVivek } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
+import displayImageGenerator from './components/apps/image-generator';
 
 const apps = [
     {
@@ -74,15 +75,6 @@ const apps = [
         screen: displaySpotify, // India Top 50 Playlist 😅
     },
     {
-        id: "settings",
-        title: "Settings",
-        icon: './themes/Yaru/apps/gnome-control-center.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: false,
-        screen: displaySettings,
-    },
-    {
         id: "trash",
         title: "Trash",
         icon: './themes/Yaru/system/user-trash-full.png',
@@ -99,6 +91,24 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayGedit,
+    },
+    {
+        id: "image-generator",
+        title: "Image Generator",
+        icon: './themes/Yaru/apps/image.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: true,
+        screen: displayImageGenerator,
+    },
+    {
+        id: "settings",
+        title: "Settings",
+        icon: './themes/Yaru/apps/gnome-control-center.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: false,
+        screen: displaySettings,
     },
 ]
 
