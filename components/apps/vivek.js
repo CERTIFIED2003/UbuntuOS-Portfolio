@@ -274,7 +274,7 @@ function Projects() {
         {
             name: "Clang Social App",
             noview: true,
-            date: "Jan 2022",
+            date: "Jan 2023",
             link: "https://play.google.com/store/apps/details?id=com.casuals4fun.clang_social",
             description: [
                 "Clang Social mobile app to make life easier",
