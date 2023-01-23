@@ -9,6 +9,7 @@ import { displayGedit } from './components/apps/gedit';
 import { displayAboutVivek } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
 import displayImageGenerator from './components/apps/image-generator';
+import displayQuestionAnswer from './components/apps/question-answer';
 
 const apps = [
     {
@@ -91,6 +92,15 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayGedit,
+    },
+    {
+        id: "question-answer",
+        title: "Q/A",
+        icon: './themes/Yaru/apps/question.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: true,
+        screen: displayQuestionAnswer,
     },
     {
         id: "image-generator",

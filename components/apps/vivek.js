@@ -244,6 +244,15 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
+            name: "Questions Answering AI",
+            date: "Jan 2023",
+            link: "https://github.com/CERTIFIED2003/question-answering-ai",
+            description: [
+                "Powerful Query answering AI tool build with Vite, OPENAI & Tailwindcss.",
+            ],
+            domains: ["vite", "openai", "tailwindcss", "javascript"]
+        },
+        {
             name: "Image Generator AI",
             date: "Jan 2023",
             link: "https://github.com/certified2003/image-generator-ai",
