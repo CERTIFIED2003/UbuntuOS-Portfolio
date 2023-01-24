@@ -33,19 +33,19 @@ export default function Meta() {
                 content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
             <meta name="twitter:site" content="certified2003" />
             <meta name="twitter:creator" content="certified2003" />
-            <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
+            <meta name="twitter:image:src" content="images/logos/fevicon.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
             <meta name="og:title" content="Ubuntu OS | Shubham" />
             <meta name="og:description"
                 content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
-            <meta name="og:image" content="images/logos/logo_1200.png" />
+            <meta name="og:image" content="images/logos/fevicon.png" />
             <meta name="og:url" content="http://certified2003.github.io/" />
             <meta name="og:site_name" content="shubham lal Personal Portfolio" />
             <meta name="og:locale" content="en_IN" />
             <meta name="og:type" content="website" />
 
             <link rel="icon" href="images/logos/fevicon.svg" />
-            <link rel="apple-touch-icon" href="images/logos/logo.png" />
+            <link rel="apple-touch-icon" href="images/logos/fevicon.png" />
             {/* <link rel="preload" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" as="style" />
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"></link> */}
         </Head>
