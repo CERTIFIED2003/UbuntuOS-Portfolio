@@ -10,6 +10,8 @@ import { displayAboutVivek } from './components/apps/vivek';
 import { displayTerminalCalc } from './components/apps/calc';
 import displayImageGenerator from './components/apps/image-generator';
 import displayQuestionAnswer from './components/apps/question-answer';
+import displayClangSocial from './components/apps/clang-social';
+import displayInfix from './components/apps/infix';
 
 const apps = [
     {
@@ -94,6 +96,15 @@ const apps = [
         screen: displayGedit,
     },
     {
+        id: "clang-social",
+        title: "Clang Social",
+        icon: './themes/Yaru/apps/clang.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: true,
+        screen: displayClangSocial,
+    },
+    {
         id: "question-answer",
         title: "Q/A",
         icon: './themes/Yaru/apps/question.png',
@@ -110,6 +121,15 @@ const apps = [
         favourite: true,
         desktop_shortcut: true,
         screen: displayImageGenerator,
+    },
+    {
+        id: "infix",
+        title: "Infix Operations",
+        icon: './themes/Yaru/apps/infix.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: true,
+        screen: displayInfix,
     },
     {
         id: "settings",
