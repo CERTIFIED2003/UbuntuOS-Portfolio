@@ -1,5 +1,5 @@
 # Web simulation of UbuntuOS
-<a href="https://ubuntuos.pages.dev/" target="_blank" style="background: #fff !important; height: 40px !important;width: 140px !important;">Live Site</a>
+<a href="https://ubuntuos.pages.dev/" target="_blank" style="background: #fff !important; height: 40px !important;width: 140px !important;">Live Site Preview</a>
 
 This is a recreated website of theme Ubuntu 20.04, made using Next.js & Tailwind CSS.
 If you want to edit this, Clone this project and edit the files in `/src/components`.
