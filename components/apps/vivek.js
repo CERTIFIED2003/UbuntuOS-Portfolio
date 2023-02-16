@@ -460,6 +460,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Shubham-Resume.pdf" title="vivek patel resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Resume-Shubham-Lal.pdf" title="Shubham Lal's Resume" frameBorder="0"></iframe>
     )
 }
