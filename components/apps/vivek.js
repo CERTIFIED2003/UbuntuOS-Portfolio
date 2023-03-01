@@ -244,6 +244,33 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
+            name: "Twitter Clone",
+            date: "Feb 2023",
+            link: "https://tclone.vercel.app",
+            description: [
+                "Still working on it! Check back soon...",
+            ],
+            domains: ["nextjs", "firebase-auth", "firebase-database"]
+        },
+        {
+            name: "Reddit Clone",
+            date: "Feb 2023",
+            link: "https://r-clone.vercel.app",
+            description: [
+                "An awesome Reddit clone made with nextjs framework, used Chakra UI for CSS design & Firebase services for entire application's NoSQL.",
+            ],
+            domains: ["nextjs", "typescript", "chakra-ui", "firebase-auth", "firebase-database", "firebase-storage"]
+        },
+        {
+            name: "Stackoverflow Clone",
+            date: "Feb 2023",
+            link: "",
+            description: [
+                "Still working on it! Check back soon...",
+            ],
+            domains: ["mern", "express", "reactjs", "node"]
+        },
+        {
             name: "Questions Answering AI",
             date: "Jan 2023",
             link: "https://github.com/CERTIFIED2003/question-answering-ai",
@@ -271,7 +298,7 @@ function Projects() {
             domains: ["next.js", "tailwindcss", "javascript"]
         },
         {
-            name: "Clang Social",
+            name: "Clang Social v2",
             noview: true,
             date: "Dec 2022",
             link: "https://clangsocial.netlify.app",
@@ -291,7 +318,7 @@ function Projects() {
             domains: ["java", "android studio"]
         },
         {
-            name: "Clang Social",
+            name: "Clang Social v1",
             noview: true,
             date: "Nov 2022",
             link: "https://clang-social.netlify.app",
@@ -413,7 +440,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            {/* <iframe src="https://github.com/sponsors/vivek9patel/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe> */}
+            <iframe src="https://github.com/sponsors/certified2003/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {
