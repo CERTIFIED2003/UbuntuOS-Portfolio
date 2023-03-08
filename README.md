@@ -1,4 +1,7 @@
 # Web simulation of UbuntuOS
+
+![](https://media.licdn.com/dms/image/C562DAQFjprpK3CS5CQ/profile-treasury-image-shrink_800_800/0/1675446558156?e=1678903200&v=beta&t=XXJ0wh6tvL1tKTer7gniBmRevAQaKU5g9YRBb4ArZLE)
+
 <a href="https://ubuntuos.pages.dev/" target="_blank" style="background: #fff !important; height: 40px !important;width: 140px !important;">Live Site Preview</a>
 
 This is a recreated website of theme Ubuntu 20.04, made using Next.js & Tailwind CSS.
