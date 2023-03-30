@@ -248,7 +248,7 @@ function Projects() {
             date: "Feb 2023",
             link: "https://tclone.vercel.app",
             description: [
-                "Still working on it! Check back soon...",
+                "Awesome looking Twitter clone build using NextJS + TailwindCSS. Firebase v9 integrated for post creation and file storage. With the support of NewsAPI making this application super awesome.",
             ],
             domains: ["nextjs", "firebase-auth", "firebase-database"]
         },
