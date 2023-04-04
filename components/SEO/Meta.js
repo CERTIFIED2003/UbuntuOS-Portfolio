@@ -5,9 +5,9 @@ export default function Meta() {
     return (
         <Head>
            /* Primary Meta Tags */
-            <title>Ubuntu OS | Shubham</title>
+            <title>CERTIFIED2003 | Shubham Lal</title>
             <meta charSet="utf-8" />
-            <meta name="title" content="Ubuntu OS | Shubham" />
+            <meta name="title" content="CERTIFIED2003 | Shubham Lal" />
             <meta name="description"
                 content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
             <meta name="author" content="Shubham Lal (certified2003)" />
@@ -22,20 +22,20 @@ export default function Meta() {
             /* Search Engine */
             <meta name="image" content="images/logos/fevicon.png" />
             /* Schema.org for Google */
-            <meta itemProp="name" content="Ubuntu OS | Shubham" />
+            <meta itemProp="name" content="CERTIFIED2003 | Shubham Lal" />
             <meta itemProp="description"
                 content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="Ubuntu OS | Shubham" />
+            <meta name="twitter:title" content="CERTIFIED2003 | Shubham Lal" />
             <meta name="twitter:description"
                 content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
             <meta name="twitter:site" content="certified2003" />
             <meta name="twitter:creator" content="certified2003" />
             <meta name="twitter:image:src" content="images/logos/fevicon.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
-            <meta name="og:title" content="Ubuntu OS | Shubham" />
+            <meta name="og:title" content="CERTIFIED2003 | Shubham Lal" />
             <meta name="og:description"
                 content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
             <meta name="og:image" content="images/logos/fevicon.png" />
