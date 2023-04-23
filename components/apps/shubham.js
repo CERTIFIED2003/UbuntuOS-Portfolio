@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 
-export class AboutVivek extends Component {
+export class AboutShubham extends Component {
 
     constructor() {
         super();
@@ -55,31 +55,31 @@ export class AboutVivek extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about vivek" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="about shubham" src="./themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="portfolio" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "portfolio" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about vivek" src="./themes/Yaru/status/portfolio.svg" />
+                    <img className=" w-3 md:w-4" alt="about shubham" src="./themes/Yaru/status/portfolio.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Portfolio</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' education" src="./themes/Yaru/status/education.svg" />
+                    <img className=" w-3 md:w-4" alt="shubham's education" src="./themes/Yaru/status/education.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
                 </div>
                 <div id="skills" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "skills" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' skills" src="./themes/Yaru/status/skills.svg" />
+                    <img className=" w-3 md:w-4" alt="shubham's skills" src="./themes/Yaru/status/skills.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
                 </div>
                 <div id="projects" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "projects" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek' projects" src="./themes/Yaru/status/projects.svg" />
+                    <img className=" w-3 md:w-4" alt="shubham's projects" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
                 <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek's resume" src="./themes/Yaru/status/download.svg" />
+                    <img className=" w-3 md:w-4" alt="shubham's resume" src="./themes/Yaru/status/download.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
                 <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    {/* <iframe src="https://github.com/sponsors/vivek9patel/button" title="Sponsor vivek9patel" width={"100%"} height={"100%"} ></iframe> */}
+                    <iframe src="https://github.com/sponsors/certified2003/button" title="Sponsor CERTIFIED2003" width={"100%"} height={"100%"} ></iframe>
                 </div>
             </>
         );
@@ -107,10 +107,10 @@ export class AboutVivek extends Component {
     }
 }
 
-export default AboutVivek;
+export default AboutShubham;
 
-export const displayAboutVivek = () => {
-    return <AboutVivek />;
+export const displayAboutShubham = () => {
+    return <AboutShubham />;
 }
 
 
@@ -131,13 +131,13 @@ function About() {
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-pc">I'm a <span className=" font-medium">Student</span> currently pursuing Computer Science.
                     I've completed my 2nd Semester at
-                    <u className=' cursor-pointer '> <a href="https://www.bitcollege.in/" target={"_blank"}>Bengal Institute of Technology</a> </u>,
+                    <u className=' cursor-pointer '> <a href="https://www.bitcollege.in/" target={"_blank"} className='text-red-600'>Bengal Institute of Technology</a> </u>,
                     and now I'm looking for Summer'23 Internship opportunities!
-                    ( Hit me up <a className='text-underline' href='mailto:vivek.p9737@gmail.com'><u>@lal.shubham027@gmail.com</u></a> :)
+                    ( Hit me up <a className='text-underline' href='mailto:im.shubhamlal@gmail.com'><u>@im.shubhamlal@gmail.com</u></a> :)
                 </li>
-                <li className=" mt-3 list-building"> I enjoy building awesome softwares that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time working on game developments, reading newspapers or watching <a href="https://www.youtube.com/@fireship" target="_blank" rel="noreferrer"> fireship's videos.</a></li>
-                <li className=" mt-3 list-star"> And I also have interest in Artificial Intelligence & Machine learning!</li>
+                <li className=" mt-3 list-building"> I enjoy building awesome web apps that solve practical problems.</li>
+                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time working on web development, working on game projects or watching <a href="https://www.youtube.com/@Hyperplexed" className='underline text-cyan-500' target="_blank" rel="noreferrer"> Hyperplexed's videos</a>.</li>
+                <li className=" mt-3 list-star"> And I also have interest in Artificial Intelligence & Blockchain! Currently exploring Web3🚀</li>
             </ul>
         </>
     )
@@ -243,10 +243,64 @@ function Skills() {
 
 function Projects() {
     const project_list = [
+        // {
+        //     name: "",
+        //     date: "April 2023",
+        //     link: "",
+        //     description: [
+
+        //     ],
+        //     domains: [""]
+        // },
+        {
+            name: "CrowdFunding | Support Campaigns with Ethereum",
+            date: "April 2023",
+            link: "https://github.com/CERTIFIED2003/Crowdfunding-Blockchain",
+            description: [
+                "CrowdFunding allows users to create and fund projects using Ethereum, ensuring transparency and security in the crowdfunding process."
+            ],
+            domains: ["solidity", "tailwindcss", "ethers.js"]
+        },
+        {
+            name: "Krypt | Blockchain Transaction",
+            date: "April 2023",
+            link: "https://github.com/CERTIFIED2003/Krypt-Blockchain-Transaction",
+            description: [
+                "Krypt is a personal project that documents my initial foray into the world of Web3 development. Transfer of Sepolia Ethereum and post a message with gif to be stored in Blockchain network."
+            ],
+            domains: ["solidity", "tailwindcss", "ethers.js"]
+        },
+        {
+            name: "ToDo App",
+            date: "April 2023",
+            link: "https://github.com/CERTIFIED2003/ToDo-Internship",
+            description: [
+                "Full Stack Todo Application. Frontend made with Vite and MongoDB used as Database for Backend. Used Redux for CRUD applications"
+            ],
+            domains: ["redux", "mongodb", "sass"]
+        },
+        {
+            name: "CertyStore | E-Commerce Site",
+            date: "March 2023",
+            link: "https://github.com/CERTIFIED2003/ECommerce-Site-v2",
+            description: [
+                "Full Stack E-Commerce Web App with fully functional Admin's Dashboard"
+            ],
+            domains: ["mern", "express", "reactjs", "node", "redux", "tailwindcss"]
+        },
+        {
+            name: "Login with IP System",
+            date: "March 2023",
+            link: "https://github.com/CERTIFIED2003/Login-with-IP-System",
+            description: [
+                "A simple authentication system. Login for Student, Teacher & Admin. For Student authentication, there is a predefined IP Address env variable assigned in the backend (NETWORK_IP)."
+            ],
+            domains: ["mern", "express", "reactjs", "node"]
+        },
         {
             name: "Twitter Clone",
             date: "Feb 2023",
-            link: "https://tclone.vercel.app",
+            link: "https://github.com/CERTIFIED2003/Twitter-Clone",
             description: [
                 "Awesome looking Twitter clone build using NextJS + TailwindCSS. Firebase v9 integrated for post creation and file storage. With the support of NewsAPI making this application super awesome.",
             ],
@@ -255,20 +309,11 @@ function Projects() {
         {
             name: "Reddit Clone",
             date: "Feb 2023",
-            link: "https://r-clone.vercel.app",
+            link: "https://github.com/CERTIFIED2003/Reddit-Clone",
             description: [
                 "An awesome Reddit clone made with nextjs framework, used Chakra UI for CSS design & Firebase services for entire application's NoSQL.",
             ],
             domains: ["nextjs", "typescript", "chakra-ui", "firebase-auth", "firebase-database", "firebase-storage"]
-        },
-        {
-            name: "Stackoverflow Clone",
-            date: "Feb 2023",
-            link: "",
-            description: [
-                "Still working on it! Check back soon...",
-            ],
-            domains: ["mern", "express", "reactjs", "node"]
         },
         {
             name: "Questions Answering AI",
@@ -397,7 +442,7 @@ function Projects() {
             date: "Sep 2022",
             link: "https://github.com/CERTIFIED2003/py-game",
             description: [
-                "",
+                "A casual space arcade game made with the help of Python's 'pygame' library.",
             ],
             domains: ["pygame", "python"]
         },
@@ -406,7 +451,7 @@ function Projects() {
             date: "Oct 2022",
             link: "https://github.com/CERTIFIED2003/TicTacToe_Apk-usingJAVA",
             description: [
-                "",
+                "A basic android tic-tac-toe game.",
             ],
             domains: ["java", "android studio"]
         },
@@ -428,7 +473,8 @@ function Projects() {
         "python": "green-200",
         "codeforces-api": "gray-300",
         "tailwindcss": "blue-300",
-        "next.js": "purple-600"
+        "next.js": "purple-600",
+        "mongodb": "green-600",
     }
 
     return (
@@ -440,7 +486,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/sponsors/certified2003/card" title="Sponsor vivek9patel" className='my-4 w-5/6 md:w-3/4' ></iframe>
+            <iframe src="https://github.com/sponsors/certified2003/card" title="Sponsor CERTIFIED2003" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {

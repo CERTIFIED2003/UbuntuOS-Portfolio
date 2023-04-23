@@ -6,12 +6,14 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutVivek } from './components/apps/vivek';
+import { displayAboutShubham } from './components/apps/shubham';
 import { displayTerminalCalc } from './components/apps/calc';
 import displayImageGenerator from './components/apps/image-generator';
 import displayQuestionAnswer from './components/apps/question-answer';
 import displayClangSocial from './components/apps/clang-social';
 import displayInfix from './components/apps/infix';
+import displayTodoApp from './components/apps/todo';
+import displayCrowdFunding from './components/apps/crowdfunding';
 
 const apps = [
     {
@@ -24,13 +26,13 @@ const apps = [
         screen: displayportfolio,
     },
     {
-        id: "about-vivek",
+        id: "about-shubham",
         title: "About Me",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: displayAboutVivek,
+        screen: displayAboutShubham,
     },
     {
         id: "chrome",
@@ -130,6 +132,24 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayInfix,
+    },
+    {
+        id: "todo",
+        title: "ToDo App",
+        icon: './themes/Yaru/apps/todo.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayTodoApp,
+    },
+    {
+        id: "crowdfunding",
+        title: "CrowdFunding ",
+        icon: './themes/Yaru/apps/crowdfunding.svg',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayCrowdFunding,
     },
     {
         id: "settings",
