@@ -40,7 +40,7 @@ const apps = [
         icon: './themes/Yaru/apps/chrome.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: true,
+        desktop_shortcut: false,
         screen: displayChrome,
     },
     {
@@ -76,7 +76,7 @@ const apps = [
         icon: './themes/Yaru/apps/spotify.png',
         disabled: false,
         favourite: true,
-        desktop_shortcut: true,
+        desktop_shortcut: false,
         screen: displaySpotify, // My Fav Playlist 😅
     },
     {
