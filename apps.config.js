@@ -1,6 +1,5 @@
 import displaySpotify from './components/apps/spotify';
 import displayVsCode from './components/apps/vscode';
-import displayportfolio from './components/apps/portfolio';
 import { displayTerminal } from './components/apps/terminal';
 import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
@@ -17,18 +16,9 @@ import displayCrowdFunding from './components/apps/crowdfunding';
 
 const apps = [
     {
-        id: "portfolio",
-        title: "My Portfolio",
-        icon: './themes/Yaru/apps/my_logo.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayportfolio,
-    },
-    {
         id: "about-shubham",
         title: "About Me",
-        icon: './themes/Yaru/system/user-home.png',
+        icon: './themes/Yaru/apps/my_logo.png',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
