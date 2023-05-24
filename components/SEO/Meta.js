@@ -9,10 +9,10 @@ export default function Meta() {
             <meta charSet="utf-8" />
             <meta name="title" content="CERTIFIED2003 (Shubham Lal)" />
             <meta name="description"
-                content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
+                content="Shubham Lal - My showcase site ❤" />
             <meta name="author" content="CERTIFIED2003 (Shubham Lal)" />
             <meta name="keywords"
-                content="certified2003, certified2003's portfolio, certified2003 linux, ubuntu portfolio, shubham lal protfolio,shubham lal computer, shubham lal, shubham ubuntu, shubham lal ubuntu portfolio" />
+                content="shubham lal, certified2003, certified2003's portfolio, certified2003 linux, ubuntu portfolio, shubham lal protfolio,shubham lal computer, shubham lal, shubham ubuntu, shubham lal ubuntu portfolio" />
             <meta name="robots" content="index, follow" />
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
             <meta name="language" content="English" />
@@ -24,20 +24,20 @@ export default function Meta() {
             /* Schema.org for Google */
             <meta itemProp="name" content="CERTIFIED2003 (Shubham Lal)" />
             <meta itemProp="description"
-                content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
+                content="Shubham Lal - My showcase site ❤" />
             <meta itemProp="image" content="images/logos/fevicon.png" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="CERTIFIED2003 (Shubham Lal)" />
             <meta name="twitter:description"
-                content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
+                content="Shubham Lal - My showcase site ❤" />
             <meta name="twitter:site" content="certified2003" />
             <meta name="twitter:creator" content="certified2003" />
             <meta name="twitter:image:src" content="images/logos/fevicon.png" />
             /* Open Graph general (Facebook, Pinterest & Google+) */
             <meta name="og:title" content="CERTIFIED2003 (Shubham Lal)" />
             <meta name="og:description"
-                content="Ubuntu OS recreated using NextJS and Tailwindcss. Made with ❤ by Shubham Lal" />
+                content="Shubham Lal - My showcase site ❤" />
             <meta name="og:image" content="images/logos/fevicon.png" />
             <meta name="og:url" content="http://certified2003.github.io/" />
             <meta name="og:site_name" content="Shubham Lal Personal Portfolio" />
