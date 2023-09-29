@@ -240,6 +240,7 @@ export class Desktop extends Component {
                     name: app.title,
                     id: app.id,
                     icon: app.icon,
+                    link: app?.link,
                     openApp: this.openApp
                 }
 

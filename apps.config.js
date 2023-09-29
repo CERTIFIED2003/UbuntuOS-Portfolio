@@ -7,12 +7,9 @@ import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
 import { displayAboutShubham } from './components/apps/shubham';
 import { displayTerminalCalc } from './components/apps/calc';
-import displayImageGenerator from './components/apps/image-generator';
-import displayQuestionAnswer from './components/apps/question-answer';
 import displayClangSocial from './components/apps/clang-social';
 import displayInfix from './components/apps/infix';
 import displayTodoApp from './components/apps/todo';
-import displayCrowdFunding from './components/apps/crowdfunding';
 
 const apps = [
     {
@@ -103,7 +100,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: displayQuestionAnswer,
+        link: 'https://github.com/CERTIFIED2003/Question-Answering-AI'
     },
     {
         id: "image-generator",
@@ -112,7 +109,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: displayImageGenerator,
+        link: 'https://github.com/CERTIFIED2003/image-generator-ai'
     },
     {
         id: "infix",
@@ -139,7 +136,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: displayCrowdFunding,
+        link: 'https://github.com/CERTIFIED2003/Crowdfunding-Blockchain'
     },
     {
         id: "settings",
