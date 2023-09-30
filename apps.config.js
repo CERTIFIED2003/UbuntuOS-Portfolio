@@ -10,6 +10,7 @@ import { displayTerminalCalc } from './components/apps/calc';
 import displayClangSocial from './components/apps/clang-social';
 import displayInfix from './components/apps/infix';
 import displayTodoApp from './components/apps/todo';
+import drawingApp from './components/apps/drawing';
 
 const apps = [
     {
@@ -150,11 +151,11 @@ const apps = [
     {
         id: "drawing",
         title: "Drawing App ",
-        icon: './themes/Yaru/apps/crowdfunding.svg',
+        icon: './themes/Yaru/apps/drawing.png',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        link: 'https://github.com/CERTIFIED2003/Drawing-App'
+        screen: drawingApp
     },
 ]
 
