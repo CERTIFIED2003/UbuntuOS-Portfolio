@@ -147,6 +147,15 @@ const apps = [
         desktop_shortcut: false,
         screen: displaySettings,
     },
+    {
+        id: "drawing",
+        title: "Drawing App ",
+        icon: './themes/Yaru/apps/crowdfunding.svg',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        link: 'https://github.com/CERTIFIED2003/Drawing-App'
+    },
 ]
 
 export default apps;
