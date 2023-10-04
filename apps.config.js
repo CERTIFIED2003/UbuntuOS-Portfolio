@@ -8,6 +8,7 @@ import { displayGedit } from './components/apps/gedit';
 import { displayAboutShubham } from './components/apps/shubham';
 import { displayTerminalCalc } from './components/apps/calc';
 import displayClangSocial from './components/apps/clang-social';
+import displayMyReddit from './components/apps/my-reddit';
 import displayInfix from './components/apps/infix';
 import displayTodoApp from './components/apps/todo';
 import drawingApp from './components/apps/drawing';
@@ -93,6 +94,15 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayClangSocial,
+    },
+    {
+        id: "reddit-clone",
+        title: "My Reddit",
+        icon: './themes/Yaru/apps/reddit.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayMyReddit,
     },
     {
         id: "question-answer",

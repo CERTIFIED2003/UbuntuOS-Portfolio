@@ -9,7 +9,7 @@ import useWindowHeight from '../utils/useWindowHeight';
 const Ubuntu = () => {
 	const [state, setState] = useState({
 		screen_locked: false,
-		bg_image_name: 'wall-9',
+		bg_image_name: 'wall-1',
 		booting_screen: true,
 		shutDownScreen: false
 	});
