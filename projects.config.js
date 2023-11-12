@@ -1,7 +1,7 @@
 export const project_list = [
     // {
     //     name: "",
-    //     date: "April 2023",
+    //     date: "",
     //     link: "",
     //     description: [
     //     ],
@@ -10,7 +10,7 @@ export const project_list = [
     {
         name: "CrowdFunding | Support Campaigns with Ethereum",
         date: "April 2023",
-        link: "https://github.com/CERTIFIED2003/Crowdfunding-Blockchain",
+        link: "https://github.com/Shubham-Lal/Crowdfunding-Blockchain",
         description: [
             "CrowdFunding allows users to create and fund projects using Ethereum, ensuring transparency and security in the crowdfunding process."
         ],
@@ -23,7 +23,7 @@ export const project_list = [
     {
         name: "Krypt | Blockchain Transaction",
         date: "April 2023",
-        link: "https://github.com/CERTIFIED2003/Krypt-Blockchain-Transaction",
+        link: "https://github.com/Shubham-Lal/Krypt-Blockchain-Transaction",
         description: [
             "Krypt is a personal project that documents my initial foray into the world of Web3 development. Transfer of Sepolia Ethereum and post a message with gif to be stored in Blockchain network."
         ],
@@ -36,7 +36,7 @@ export const project_list = [
     {
         name: "ToDo App",
         date: "April 2023",
-        link: "https://github.com/CERTIFIED2003/ToDo-Internship",
+        link: "https://github.com/Shubham-Lal/ToDo-Internship",
         description: [
             "Full Stack Todo Application. Frontend made with Vite and MongoDB used as Database for Backend. Used Redux for CRUD applications"
         ],
@@ -49,7 +49,7 @@ export const project_list = [
     {
         name: "CertyStore | E-Commerce Site",
         date: "March 2023",
-        link: "https://github.com/CERTIFIED2003/ECommerce-Site-v2",
+        link: "https://github.com/Shubham-Lal/ECommerce-Site-v2",
         description: [
             "Full Stack E-Commerce Web App with fully functional Admin's Dashboard"
         ],
@@ -65,7 +65,7 @@ export const project_list = [
     {
         name: "Login with IP System",
         date: "March 2023",
-        link: "https://github.com/CERTIFIED2003/Login-with-IP-System",
+        link: "https://github.com/Shubham-Lal/Login-with-IP-System",
         description: [
             "A simple authentication system. Login for Student, Teacher & Admin. For Student authentication, there is a predefined IP Address env variable assigned in the backend (NETWORK_IP)."
         ],
@@ -79,7 +79,7 @@ export const project_list = [
     {
         name: "Twitter Clone",
         date: "Feb 2023",
-        link: "https://github.com/CERTIFIED2003/Twitter-Clone",
+        link: "https://github.com/Shubham-Lal/Twitter-Clone",
         description: [
             "Awesome looking Twitter clone build using NextJS + TailwindCSS. Firebase v9 integrated for post creation and file storage. With the support of NewsAPI making this application super awesome.",
         ],
@@ -92,7 +92,7 @@ export const project_list = [
     {
         name: "Reddit Clone",
         date: "Feb 2023",
-        link: "https://github.com/CERTIFIED2003/Reddit-Clone",
+        link: "https://github.com/Shubham-Lal/Reddit-Clone",
         description: [
             "An awesome Reddit clone made with nextjs framework, used Chakra UI for CSS design & Firebase services for entire application's NoSQL.",
         ],
@@ -108,7 +108,7 @@ export const project_list = [
     {
         name: "Questions Answering AI",
         date: "Jan 2023",
-        link: "https://github.com/CERTIFIED2003/question-answering-ai",
+        link: "https://github.com/Shubham-Lal/question-answering-ai",
         description: [
             "Powerful Query answering AI tool build with Vite, OPENAI & Tailwindcss.",
         ],
@@ -122,7 +122,7 @@ export const project_list = [
     {
         name: "Image Generator AI",
         date: "Jan 2023",
-        link: "https://github.com/certified2003/image-generator-ai",
+        link: "https://github.com/Shubham-Lal/image-generator-ai",
         description: [
             "Think of an awesome imagination and make it surreal with this awesome Image Generator AI",
         ],
@@ -135,7 +135,7 @@ export const project_list = [
     {
         name: "UbuntuOS",
         date: "Jan 2023",
-        link: "https://github.com/certified2003/ubuntuOS-playground",
+        link: "https://github.com/Shubham-Lal/ubuntuOS-playground",
         description: [
             "Website of theme Ubuntu 20.04, made using NEXT.js & Tailwind CSS",
         ],
@@ -189,7 +189,7 @@ export const project_list = [
     {
         name: "Keeper",
         date: "Dec 2022",
-        link: "https://github.com/CERTIFIED2003/keeper_frontend",
+        link: "https://github.com/Shubham-Lal/keeper_frontend",
         description: [
             "A very much Google Keep lookalike clone.",
         ],
@@ -202,7 +202,7 @@ export const project_list = [
         name: "Infix Operations",
         noview: true,
         date: "Dec 2022",
-        link: "https://certified2003.github.io/infix_operation",
+        link: "https://Shubham-Lal.github.io/infix_operation",
         description: [
             "An ultimate Infix Expressions problem solver. Over 10+ hours used to complete the project and bugs fix.",
         ],
@@ -227,7 +227,7 @@ export const project_list = [
     {
         name: "Face Recognition System + Attendance System",
         date: "Aug 2022",
-        link: "https://github.com/CERTIFIED2003/FacialRecognitionSystem-withAttendance",
+        link: "https://github.com/Shubham-Lal/FacialRecognitionSystem-withAttendance",
         description: [
             "This Project was made specifically for one of my Drone Projects to get Attendance of the acknowledged Personalities.",
         ],
@@ -238,7 +238,7 @@ export const project_list = [
     {
         name: "Face Mask Detection System",
         date: "Aug 2022",
-        link: "https://github.com/CERTIFIED2003/Face-Mask-Detection",
+        link: "https://github.com/Shubham-Lal/Face-Mask-Detection",
         description: [
             "This Project was made to distinguish the individuals whether they are wearing Mask or not. The model of this is trained by the images of the people wearing mask and those who are without mask.",
         ],
@@ -249,7 +249,7 @@ export const project_list = [
     {
         name: "Items Detector AI",
         date: "Aug 2022",
-        link: "https://github.com/CERTIFIED2003/Items-Detector-AI",
+        link: "https://github.com/Shubham-Lal/Items-Detector-AI",
         description: [
             "This Project can help identify the objects throughout the live feed and can be explicitly used for the Security.",
         ],
@@ -260,7 +260,7 @@ export const project_list = [
     {
         name: "J.A.R.V.I.S",
         date: "Aug 2022",
-        link: "https://github.com/CERTIFIED2003/VoiceDetection-AI",
+        link: "https://github.com/Shubham-Lal/VoiceDetection-AI",
         description: [
             "An intelligent voice recognition software to make life easier.",
         ],
@@ -271,7 +271,7 @@ export const project_list = [
     {
         name: "Space Shooter Game",
         date: "Sep 2022",
-        link: "https://github.com/CERTIFIED2003/py-game",
+        link: "https://github.com/Shubham-Lal/py-game",
         description: [
             "A casual space arcade game made with the help of Python's 'pygame' library.",
         ],
@@ -283,7 +283,7 @@ export const project_list = [
     {
         name: "Tic-Tac-Toe Game",
         date: "Oct 2022",
-        link: "https://github.com/CERTIFIED2003/TicTacToe_Apk-usingJAVA",
+        link: "https://github.com/Shubham-Lal/TicTacToe_Apk-usingJAVA",
         description: [
             "A basic android tic-tac-toe game.",
         ],

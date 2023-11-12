@@ -80,7 +80,7 @@ export class AboutShubham extends Component {
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
                 <div className='my-0.5 w-28 md:w-full h-8 hidden md:flex' >
-                    <iframe src="https://github.com/sponsors/certified2003/button" title="Sponsor CERTIFIED2003" width={"100%"} height={"100%"} ></iframe>
+                    <iframe src="https://github.com/sponsors/Shubham-Lal/button" title="Sponsor Shubham-Lal" width={"100%"} height={"100%"} ></iframe>
                 </div>
             </>
         );
@@ -252,7 +252,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/sponsors/certified2003/card" title="Sponsor CERTIFIED2003" className='md:w-full' ></iframe>
+            <iframe src="https://github.com/sponsors/Shubham-Lal/card" title="Sponsor Shubham-Lal" className='md:w-full' ></iframe>
 
             {
                 project_list.map((project, index) => {
@@ -264,7 +264,7 @@ function Projects() {
                                 <div className="flex flex-wrap justify-between items-center">
                                     <div className='flex justify-center items-center'>
                                         <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                                        {project.noview ? "" : <iframe src={`https://ghbtns.com/github-btn.html?user=certified2003&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase() + "-star"}></iframe>}
+                                        {project.noview ? "" : <iframe src={`https://ghbtns.com/github-btn.html?user=Shubham-Lal&repo=${projectName}&type=star&count=true`} frameBorder="0" scrolling="0" width="150" height="20" title={project.name.toLowerCase() + "-star"}></iframe>}
                                     </div>
                                     <div className="text-gray-300 font-light text-sm">{project.date}</div>
                                 </div>

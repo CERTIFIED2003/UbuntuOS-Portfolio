@@ -111,7 +111,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        link: 'https://github.com/CERTIFIED2003/Question-Answering-AI'
+        link: 'https://github.com/Shubham-Lal/Question-Answering-AI'
     },
     {
         id: "image-generator",
@@ -120,7 +120,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        link: 'https://github.com/CERTIFIED2003/image-generator-ai'
+        link: 'https://github.com/Shubham-Lal/image-generator-ai'
     },
     {
         id: "infix",
@@ -147,7 +147,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        link: 'https://github.com/CERTIFIED2003/Crowdfunding-Blockchain'
+        link: 'https://github.com/Shubham-Lal/Crowdfunding-Blockchain'
     },
     {
         id: "settings",
