@@ -12,6 +12,7 @@ import displayMyReddit from './components/apps/my-reddit';
 import displayInfix from './components/apps/infix';
 import displayTodoApp from './components/apps/todo';
 import drawingApp from './components/apps/drawing';
+import displayMyGitHub from './components/apps/my-github';
 
 const apps = [
     {
@@ -166,6 +167,24 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: drawingApp
+    },
+    {
+        id: "blog",
+        title: "Blog App",
+        icon: './themes/Yaru/apps/blog.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        link: 'https://github.com/Shubham-Lal/Blog-App-v1'
+    },
+    {
+        id: "github",
+        title: "My GitHub",
+        icon: './themes/Yaru/apps/github.svg',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayMyGitHub
     },
 ]
 
