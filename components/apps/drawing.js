@@ -6,6 +6,6 @@ export default function Drawing() {
     )
 }
 
-export const drawingApp = () => {
+export const displayDrawingApp = () => {
     <Drawing> </Drawing>
 }

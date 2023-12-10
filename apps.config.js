@@ -11,7 +11,9 @@ import displayClangSocial from './components/apps/clang-social';
 import displayMyReddit from './components/apps/my-reddit';
 import displayInfix from './components/apps/infix';
 import displayTodoApp from './components/apps/todo';
-import drawingApp from './components/apps/drawing';
+import displayGDSC_BIT from './components/apps/gdsc-bit';
+import displayDrawingApp from './components/apps/drawing';
+import displayBlogApp from './components/apps/blog';
 import displayMyGitHub from './components/apps/my-github';
 
 const apps = [
@@ -105,24 +107,24 @@ const apps = [
         desktop_shortcut: true,
         screen: displayMyReddit,
     },
-    {
-        id: "question-answer",
-        title: "Q/A",
-        icon: './themes/Yaru/apps/question.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        link: 'https://github.com/Shubham-Lal/Question-Answering-AI'
-    },
-    {
-        id: "image-generator",
-        title: "Image Generator",
-        icon: './themes/Yaru/apps/image.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        link: 'https://github.com/Shubham-Lal/image-generator-ai'
-    },
+    // {
+    //     id: "question-answer",
+    //     title: "Q/A",
+    //     icon: './themes/Yaru/apps/question.png',
+    //     disabled: false,
+    //     favourite: false,
+    //     desktop_shortcut: true,
+    //     link: 'https://github.com/Shubham-Lal/Question-Answering-AI'
+    // },
+    // {
+    //     id: "image-generator",
+    //     title: "Image Generator",
+    //     icon: './themes/Yaru/apps/image.png',
+    //     disabled: false,
+    //     favourite: false,
+    //     desktop_shortcut: true,
+    //     link: 'https://github.com/Shubham-Lal/image-generator-ai'
+    // },
     {
         id: "infix",
         title: "Infix Operations",
@@ -141,14 +143,23 @@ const apps = [
         desktop_shortcut: true,
         screen: displayTodoApp,
     },
+    // {
+    //     id: "crowdfunding",
+    //     title: "CrowdFunding ",
+    //     icon: './themes/Yaru/apps/crowdfunding.svg',
+    //     disabled: false,
+    //     favourite: false,
+    //     desktop_shortcut: true,
+    //     link: 'https://github.com/Shubham-Lal/Crowdfunding-Blockchain'
+    // },
     {
-        id: "crowdfunding",
-        title: "CrowdFunding ",
-        icon: './themes/Yaru/apps/crowdfunding.svg',
+        id: "gdsc",
+        title: "GDSC Bengal Institute of Technology",
+        icon: './themes/Yaru/apps/gdsc_bit.png',
         disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        link: 'https://github.com/Shubham-Lal/Crowdfunding-Blockchain'
+        favourite: true,
+        desktop_shortcut: false,
+        screen: displayGDSC_BIT,
     },
     {
         id: "settings",
@@ -166,7 +177,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: drawingApp
+        screen: displayDrawingApp
     },
     {
         id: "blog",
@@ -175,7 +186,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        link: 'https://github.com/Shubham-Lal/Blog-App-v1'
+        screen: displayBlogApp
     },
     {
         id: "github",

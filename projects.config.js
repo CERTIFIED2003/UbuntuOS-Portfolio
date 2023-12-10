@@ -8,6 +8,64 @@ export const project_list = [
     //     domains: [""]
     // },
     {
+        name: "Blog App v1",
+        date: "November 2023",
+        link: "https://github.com/Shubham-Lal/Blog-App-v1",
+        description: [
+            "Actively developing Blog App as part of my PHP and MySQL learning journey.",
+            "In development mode, the project features user registration and sign-in functionalities."
+        ],
+        domains: [
+            "php",
+            "mysql"
+        ]
+    },
+    {
+        name: "GitHub Clone",
+        date: "November 2023",
+        link: "https://github.com/Shubham-Lal/GitHub-Clone",
+        description: [
+            "Using React APIs instead of external packages, I aim to create a full-stack experience—user accounts, login, profiles, and more, mirroring the features of the original GitHub."
+        ],
+        domains: [
+            "vite"
+        ]
+    },
+    {
+        name: "Drawing App",
+        date: "September 2023",
+        link: "https://github.com/Shubham-Lal/Drawing-App",
+        description: [
+            "Leveraging the power of real-time support, users can seamlessly create personalized rooms to draw together in real-time.",
+            "The project is deployed with precision, guaranteeing a secure and reliable platform for users to connect and create."
+        ],
+        domains: [
+            "nextjs",
+            "socket.io"
+        ]
+    },
+    {
+        name: "GDSC BIT Official Site",
+        date: "September 2023",
+        link: "https://github.com/BIT-GDSC/GDSC-BIT",
+        description: [
+            "The official site of GDSC Bengal Institute of Technology Chapter."
+        ],
+        domains: [
+            "vite",
+            "passport.js"
+        ]
+    },
+    {
+        name: "Events Scheduler",
+        date: "May 2023",
+        link: "https://github.com/Shubham-Lal/Events-Scheduler",
+        description: [
+            "Events Scheduler helps in scheduling events and invite guests via Google Calendar."
+        ],
+        domains: ["Google Calendar API"]
+    },
+    {
         name: "CrowdFunding | Support Campaigns with Ethereum",
         date: "April 2023",
         link: "https://github.com/Shubham-Lal/Crowdfunding-Blockchain",
