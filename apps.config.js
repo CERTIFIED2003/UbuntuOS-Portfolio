@@ -179,15 +179,15 @@ const apps = [
         desktop_shortcut: true,
         screen: displayDrawingApp
     },
-    {
-        id: "blog",
-        title: "Blog App",
-        icon: './themes/Yaru/apps/blog.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayBlogApp
-    },
+    // {
+    //     id: "blog",
+    //     title: "Blog App",
+    //     icon: './themes/Yaru/apps/blog.png',
+    //     disabled: false,
+    //     favourite: false,
+    //     desktop_shortcut: true,
+    //     screen: displayBlogApp
+    // },
     {
         id: "github",
         title: "My GitHub",
