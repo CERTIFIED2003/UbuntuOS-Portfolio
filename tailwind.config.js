@@ -1,6 +1,9 @@
-module.exports = {
-  mode: 'jit',
-  content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     backgroundColor: theme => ({
       ...theme('colors'),
@@ -51,9 +54,6 @@ module.exports = {
         '-10': '-10',
       }
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }

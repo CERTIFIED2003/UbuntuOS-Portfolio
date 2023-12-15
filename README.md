@@ -4,7 +4,7 @@
 
 <a href="https://ubuntuos.pages.dev/" target="_blank" style="background: #fff !important; height: 40px !important;width: 140px !important;">Live Site Preview</a>
 
-This is a recreated website of theme Ubuntu 20.04, made using Next.js & Tailwind CSS.
+This is a recreated website of theme Ubuntu 20.04, made using Next.js (also Vite) & Tailwind CSS.
 If you want to edit this, Clone this project and edit the files in `/src/components`.
 
 To run this on localhost
@@ -25,9 +25,9 @@ _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn 
 
 ```
 
-NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
-NEXT_PUBLIC_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
-NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
+VITE_SERVICE_ID = 'YOUR_SERVICE_ID'
+VITE_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
+VITE_USER_ID = 'YOUR_USER_ID'
 
 ```
 
@@ -35,9 +35,9 @@ into it. Replace \*your user id and your service ID with your values in your Ema
 ### `EmailJS Template Structure`
 ![EmailJS](https://user-images.githubusercontent.com/111045472/213639218-5226d9de-8b11-4a66-a4b6-d1b03a8ffac2.png)
 
-## This project was made using Create Next App! Here is the scripts that u can run.
+## This project was made using Create Next App (and later with Vite)! Here is the scripts that u can run.
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -49,17 +49,6 @@ You will also see any lint errors in the console.
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-
-### `npm run extract`
-
-Used to extract the app for production to the `out` folder.\
-It correctly bundles React in production mode into static `HTML` files and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Contributing
 

@@ -1,31 +1,37 @@
 {
-  "name": "ubuntuos",
-  "version": "2.0.0",
+  "name": "portfolio",
   "private": true,
-  "homepage": "https://ubuntuos.pages.dev",
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "deploy": "next build && next export && touch out/.nojekyll && gh-pages -d out"
-  },
-  "engines": {
-    "node": ">=16.x"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
-    "autoprefixer": "^10.4.13",
+    "@emailjs/browser": "^3.11.0",
     "expr-eval": "^2.0.2",
-    "jquery": "^3.6.3",
-    "next": "^13.1.2",
-    "postcss": "^8.4.21",
-    "prop-types": "^15.8.1",
+    "jquery": "^3.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-draggable": "^4.4.5",
+    "react-draggable": "^4.4.6",
     "react-ga": "^3.3.1",
-    "react-onclickoutside": "^6.12.2",
-    "tailwindcss": "^3.2.4"
+    "react-onclickoutside": "^6.13.0",
+    "react-router-dom": "^6.21.0",
+    "vite-plugin-require": "^1.1.14"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.8"
   }
 }
