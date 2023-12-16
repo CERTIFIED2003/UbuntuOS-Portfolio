@@ -26,6 +26,15 @@ const apps = [
         screen: displayAboutShubham,
     },
     {
+        id: "gdsc",
+        title: "GDSC BIT",
+        icon: './themes/Yaru/apps/gdsc_bit.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: false,
+        screen: displayGDSC_BIT,
+    },
+    {
         id: "chrome",
         title: "Google Chrome",
         icon: './themes/Yaru/apps/chrome.png',
@@ -123,15 +132,6 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayTodoApp,
-    },
-    {
-        id: "gdsc",
-        title: "GDSC Bengal Institute of Technology",
-        icon: './themes/Yaru/apps/gdsc_bit.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: false,
-        screen: displayGDSC_BIT,
     },
     {
         id: "settings",

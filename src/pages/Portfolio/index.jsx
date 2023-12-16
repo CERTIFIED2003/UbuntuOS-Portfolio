@@ -105,7 +105,7 @@ const Portfolio = () => {
     return (
         <div
             id="monitor-screen"
-            className="w-screen overflow-hidden"
+            className="animate-fade-in w-screen overflow-hidden"
             style={{
                 height: "100svh"
             }}

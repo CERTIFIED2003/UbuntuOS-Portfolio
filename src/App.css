@@ -13,6 +13,21 @@ body {
   font-display: swap
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn ease-in-out;
+  animation-duration: 500ms;
+}
+
 /* Top NavBar styling */
 
 .top-arrow-up {
