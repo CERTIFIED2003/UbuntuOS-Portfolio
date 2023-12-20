@@ -13,6 +13,7 @@ import displayInfix from './components/apps/infix';
 import displayTodoApp from './components/apps/todo';
 import displayGDSC_BIT from './components/apps/gdsc-bit';
 import displayDrawingApp from './components/apps/drawing';
+import displayBlog from './components/apps/blog';
 import displayMyGitHub from './components/apps/my-github';
 
 const apps = [
@@ -150,6 +151,15 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayDrawingApp
+    },
+    {
+        id: "blog",
+        title: "Blog App",
+        icon: './themes/Yaru/apps/blog.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayBlog
     },
     {
         id: "github",

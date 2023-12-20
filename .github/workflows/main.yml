@@ -22,6 +22,11 @@ jobs:
     run: |
       npm install
       npm run build
+    env:
+      VITE_TRACKING_ID: ${{ secrets.VITE_TRACKING_ID }}
+      VITE_USER_ID: ${{ secrets.VITE_USER_ID }}
+      VITE_SERVICE_ID: ${{ secrets.VITE_SERVICE_ID }}
+      VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
 
   - name: Install lftp
     run: sudo apt install lftp
