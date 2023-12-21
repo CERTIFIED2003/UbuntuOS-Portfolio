@@ -131,10 +131,10 @@ function About() {
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-pc">I'm a <span className=" font-medium">Student</span> currently pursuing Computer Science.
-                    I've completed my 2nd Semester at
+                    I've completed my 5th Semester at
                     <u className=' cursor-pointer '> <a href="https://www.bitcollege.in/" target={"_blank"} className='text-red-600'>Bengal Institute of Technology</a> </u>,
-                    and now I'm looking for Summer'23 Internship opportunities!
-                    ( Hit me up <a className='text-underline' href='mailto:im.shubhamlal@gmail.com'><u>@im.shubhamlal@gmail.com</u></a> :)
+                    and now I'm looking for Summer'24 Internship opportunities!
+                    ( Hit me up <a className='text-underline' href='mailto:contact@shubhamlal.in'><u>@contact@shubhamlal.in</u></a> :)
                 </li>
                 <li className=" mt-3 list-building"> I enjoy building awesome web apps that solve practical problems.</li>
                 <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time working on web development, working on game projects or watching <a href="https://www.youtube.com/@Hyperplexed" className='underline text-cyan-500' target="_blank" rel="noreferrer"> Hyperplexed's videos</a>.</li>
@@ -164,9 +164,17 @@ function Education() {
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
                         Bengal Institute of Technology
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2022 - Present</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2021 - Present</div>
                     <div className=" text-sm md:text-base">Computer Science Engineering</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9/10</div>
+                </li>
+                <li className="list-disc mt-5">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        Class 12<sup>th</sup>
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2019 - 2021</div>
+                    <div className=" text-sm md:text-base">Senior Secondary Education</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 81%</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
@@ -175,14 +183,6 @@ function Education() {
                     <div className=" text-sm text-gray-400 mt-0.5">2018 - 2019</div>
                     <div className=" text-sm md:text-base">Higher Secondary Education</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 93%</div>
-                </li>
-                <li className="list-disc mt-5">
-                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup>
-                    </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2020 - 2022</div>
-                    <div className=" text-sm md:text-base">Senior Secondary Education</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 81%</div>
                 </li>
             </ul>
         </>
