@@ -1,5 +1,3 @@
-import React from 'react'
-
 function DefaultMenu(props) {
     return (
         <div id="default-menu" className={(props.active ? " block " : " hidden ") + " cursor-default w-52 context-menu-bg border text-left border-gray-900 rounded text-white py-4 absolute z-50 text-sm"}>

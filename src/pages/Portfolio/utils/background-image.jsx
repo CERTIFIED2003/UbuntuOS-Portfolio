@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function BackgroundImage(props) {
     const bg_images = {
         "wall-1": "./images/wallpapers/wall-1.jpg",

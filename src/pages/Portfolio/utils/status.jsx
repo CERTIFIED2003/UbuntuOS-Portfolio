@@ -1,4 +1,3 @@
-import React from "react";
 import SmallArrow from "./small_arrow";
 
 export default function Status() {

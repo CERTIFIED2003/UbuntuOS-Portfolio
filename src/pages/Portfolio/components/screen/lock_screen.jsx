@@ -1,4 +1,3 @@
-import React from 'react';
 import Clock from '../../utils/clock';
 
 export default function LockScreen(props) {

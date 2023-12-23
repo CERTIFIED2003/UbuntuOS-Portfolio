@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import BackgroundImage from '../../utils/background-image';
 import SideBar from './side_bar';
 import apps from '../../../../apps.config';

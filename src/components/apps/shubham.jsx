@@ -132,7 +132,7 @@ function About() {
                 <li className=" list-pc">I&apos;m a <span className=" font-medium">Student</span> currently pursuing Computer Science.
                     I&apos;ve completed my 5th Semester at
                     <u className=' cursor-pointer '> <a href="https://www.bitcollege.in/" target={"_blank"} rel="noreferrer" className='text-red-600'>Bengal Institute of Technology</a> </u>,
-                    and now I&apos;m looking for Summer'24 Internship opportunities!
+                    and now I&apos;m looking for Summer&apos;24 Internship opportunities!
                     ( Hit me up <a className='text-underline' href='mailto:contact@shubhamlal.in'><u>@contact@shubhamlal.in</u></a> :)
                 </li>
                 <li className=" mt-3 list-building">Actively engaged in building backend solutions for various web applications.</li>
@@ -178,7 +178,7 @@ function Education() {
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 10<sup>th</sup> (CBSE)
+                        Class 10<sup>th</sup>
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2018 - 2019</div>
                     <div className=" text-sm md:text-base">Higher Secondary Education</div>

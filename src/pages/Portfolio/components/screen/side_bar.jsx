@@ -1,4 +1,3 @@
-import React from 'react'
 import SideBarApp from '../base/side_bar_app'
 
 let renderApps = (props) => {

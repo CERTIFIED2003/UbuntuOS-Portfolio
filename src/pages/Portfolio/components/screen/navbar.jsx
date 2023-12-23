@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import Clock from '../../utils/clock';
 import Status from '../../utils/status';
 import StatusCard from '../../utils/status_card';

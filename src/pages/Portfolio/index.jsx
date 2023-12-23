@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import BootingScreen from './components/screen/booting_screen';
 import Desktop from './components/screen/desktop';
 import LockScreen from './components/screen/lock_screen';
