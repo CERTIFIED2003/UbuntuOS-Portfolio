@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import ReactGA from 'react-ga';
 import { project_list, tag_colors } from '../../projects.config';
 
@@ -122,21 +122,21 @@ function About() {
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>My name is <span className="font-bold">Shubham Lal</span> ,</div>
-                <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Software Engineer!</span></div>
+                <div className="font-normal ml-1">I&apos;m a <span className="text-pink-600 font-bold">Software Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">Student</span> currently pursuing Computer Science.
-                    I've completed my 5th Semester at
-                    <u className=' cursor-pointer '> <a href="https://www.bitcollege.in/" target={"_blank"} className='text-red-600'>Bengal Institute of Technology</a> </u>,
-                    and now I'm looking for Summer'24 Internship opportunities!
+                <li className=" list-pc">I&apos;m a <span className=" font-medium">Student</span> currently pursuing Computer Science.
+                    I&apos;ve completed my 5th Semester at
+                    <u className=' cursor-pointer '> <a href="https://www.bitcollege.in/" target={"_blank"} rel="noreferrer" className='text-red-600'>Bengal Institute of Technology</a> </u>,
+                    and now I&apos;m looking for Summer'24 Internship opportunities!
                     ( Hit me up <a className='text-underline' href='mailto:contact@shubhamlal.in'><u>@contact@shubhamlal.in</u></a> :)
                 </li>
                 <li className=" mt-3 list-building">Actively engaged in building backend solutions for various web applications.</li>
-                <li className=" mt-3 list-time">When I am not coding my next project, I like to spend my time working on web development, working on game projects or watching <a href="https://www.youtube.com/@Hyperplexed" className='underline text-cyan-500' target="_blank" rel="noreferrer"> Hyperplexed's videos</a>.</li>
+                <li className=" mt-3 list-time">When I am not coding my next project, I like to spend my time working on web development, working on game projects or watching <a href="https://www.youtube.com/@Hyperplexed" className='underline text-cyan-500' target="_blank" rel="noreferrer"> Hyperplexed&apos;s videos</a>.</li>
                 <li className=" mt-3 list-star">And I also have interest in Artificial Intelligence & Blockchain! Currently exploring Web3🚀</li>
             </ul>
         </>
@@ -201,7 +201,7 @@ function Skills() {
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    I've worked with a wide variety of programming languages & frameworks.
+                    I&apos;ve worked with a wide variety of programming languages & frameworks.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div> My areas of expertise are both <strong className="text-ubt-gedit-orange">front-end and back-end development, React.js & javascript!</strong></div>
