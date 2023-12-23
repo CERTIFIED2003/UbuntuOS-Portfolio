@@ -16,12 +16,12 @@ export class AboutShubham extends Component {
 
     componentDidMount() {
         this.screens = {
-            "about": <About />,
-            "portfolio": <Portfolio />,
-            "education": <Education />,
-            "skills": <Skills />,
-            "projects": <Projects />,
-            "resume": <Resume />,
+            "about": About,
+            "portfolio": Portfolio,
+            "education": Education,
+            "skills": Skills,
+            "projects": Projects,
+            "resume": Resume,
         }
 
         let lastVisitedScreen = localStorage.getItem("about-section");
@@ -101,7 +101,7 @@ export class AboutShubham extends Component {
                     </div>
                 </div>
                 <div className="flex flex-col w-3/4 md:w-4/5 justify-start items-center flex-grow bg-ub-grey overflow-y-auto windowMainScreen">
-                    {this.state.screen}
+                    {this.state.screen && <this.state.screen />}
                 </div>
             </div>
         );
@@ -113,7 +113,6 @@ export default AboutShubham;
 export const displayAboutShubham = () => {
     return <AboutShubham />;
 }
-
 
 function About() {
     return (
@@ -136,9 +135,9 @@ function About() {
                     and now I'm looking for Summer'24 Internship opportunities!
                     ( Hit me up <a className='text-underline' href='mailto:contact@shubhamlal.in'><u>@contact@shubhamlal.in</u></a> :)
                 </li>
-                <li className=" mt-3 list-building"> I enjoy building awesome web apps that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time working on web development, working on game projects or watching <a href="https://www.youtube.com/@Hyperplexed" className='underline text-cyan-500' target="_blank" rel="noreferrer"> Hyperplexed's videos</a>.</li>
-                <li className=" mt-3 list-star"> And I also have interest in Artificial Intelligence & Blockchain! Currently exploring Web3🚀</li>
+                <li className=" mt-3 list-building">Actively engaged in building backend solutions for various web applications.</li>
+                <li className=" mt-3 list-time">When I am not coding my next project, I like to spend my time working on web development, working on game projects or watching <a href="https://www.youtube.com/@Hyperplexed" className='underline text-cyan-500' target="_blank" rel="noreferrer"> Hyperplexed's videos</a>.</li>
+                <li className=" mt-3 list-star">And I also have interest in Artificial Intelligence & Blockchain! Currently exploring Web3🚀</li>
             </ul>
         </>
     )
@@ -149,6 +148,7 @@ function Portfolio() {
         <iframe src="https://shubhamlal.pages.dev" frameBorder="0" title="My Portfolio" className="h-full w-full bg-ub-cool-grey"></iframe>
     )
 }
+
 function Education() {
     return (
         <>
@@ -188,6 +188,7 @@ function Education() {
         </>
     )
 }
+
 function Skills() {
     return (
         <>
@@ -295,6 +296,7 @@ function Projects() {
         </>
     )
 }
+
 function Resume() {
     return (
         <iframe className="h-full w-full" src="./files/Resume-Shubham-Lal.pdf" title="Shubham Lal's Resume" frameBorder="0"></iframe>

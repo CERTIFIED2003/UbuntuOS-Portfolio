@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import SideBarApp from '../base/side_bar_app'
 
 let renderApps = (props) => {
@@ -42,31 +42,30 @@ export default function SideBar(props) {
 }
 
 export function AllApps(props) {
-
-    const [title, setTitle] = useState(false);
+    // const [title, setTitle] = useState(false);
 
     return (
         <div
-            className={`w-10 h-10 rounded m-1 hover:bg-white hover:bg-opacity-10 flex items-center justify-center`}
+            className={`w-10 h-10 rounded m-1 hover:bg-white hover:bg-opacity-10 flex items-center justify-center cursor-pointer`}
             style={{ marginTop: 'auto' }}
-            onMouseEnter={() => {
-                setTitle(true);
-            }}
-            onMouseLeave={() => {
-                setTitle(false);
-            }}
             onClick={props.showApps}
+        // onMouseEnter={() => {
+        //     setTitle(true);
+        // }}
+        // onMouseLeave={() => {
+        //     setTitle(false);
+        // }}
         >
             <div className="relative">
                 <img width="28px" height="28px" className="w-7" src="./themes/Yaru/system/view-app-grid-symbolic.svg" alt="Ubuntu view app" />
-                <div
+                {/* <div
                     className={
                         (title ? " visible " : " invisible ") +
                         " w-max py-0.5 px-1.5 absolute top-1 left-full ml-5 text-ubt-grey text-opacity-90 text-sm bg-ub-grey bg-opacity-70 border-gray-400 border border-opacity-40 rounded-md"
                     }
                 >
                     Show Applications
-                </div>
+                </div> */}
             </div>
         </div>
     );

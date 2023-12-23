@@ -40,7 +40,7 @@ export class SideBarApp extends Component {
                 onMouseLeave={() => {
                     this.setState({ showTitle: false });
                 }}
-                className={(this.props.isClose[this.id] === false && this.props.isFocus[this.id] ? "bg-white bg-opacity-10 " : "") + " w-auto p-2 outline-none relative transition hover:bg-white hover:bg-opacity-10 rounded m-1"}
+                className={(this.props.isClose[this.id] === false && this.props.isFocus[this.id] ? "bg-white bg-opacity-10 " : "") + " w-auto p-2 outline-none relative transition hover:bg-white hover:bg-opacity-10 rounded m-1 cursor-pointer"}
                 id={"sidebar-" + this.props.id}
             >
                 <img width="28px" height="28px" className="w-7" src={this.props.icon} alt="Ubuntu App Icon" />

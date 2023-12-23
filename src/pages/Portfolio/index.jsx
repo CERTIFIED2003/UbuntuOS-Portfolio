@@ -8,7 +8,7 @@ import ReactGA from 'react-ga';
 const Portfolio = () => {
     const [state, setState] = useState({
         screen_locked: false,
-        bg_image_name: 'wall-1',
+        bg_image_name: 'wall-6',
         booting_screen: true,
         shutDownScreen: false
     });
