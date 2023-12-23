@@ -81,15 +81,6 @@ const apps = [
         screen: displaySpotify, // My Fav Playlist 😅
     },
     {
-        id: "trash",
-        title: "Trash",
-        icon: './themes/Yaru/system/user-trash-full.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayTrash,
-    },
-    {
         id: "gedit",
         title: "Contact Me",
         icon: './themes/Yaru/apps/gedit.png',
@@ -97,6 +88,15 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayGedit,
+    },
+    {
+        id: "trash",
+        title: "Trash",
+        icon: './themes/Yaru/system/user-trash-full.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayTrash,
     },
     {
         id: "clang-social",

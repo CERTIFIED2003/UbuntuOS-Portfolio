@@ -205,6 +205,19 @@ export const project_list = [
         ]
     },
     {
+        name: "Clang Social App",
+        noview: true,
+        date: "Jan 2023",
+        link: "https://play.google.com/store/apps/details?id=com.casuals4fun.clang_social",
+        description: [
+            "Clang Social mobile app to make life easier",
+        ],
+        domains: [
+            "java",
+            "android studio"
+        ]
+    },
+    {
         name: "Clang Social v2",
         noview: true,
         date: "Dec 2022",
@@ -216,19 +229,6 @@ export const project_list = [
             "reactjs",
             "mongodb",
             "javascript"
-        ]
-    },
-    {
-        name: "Clang Social App",
-        noview: true,
-        date: "Jan 2023",
-        link: "https://play.google.com/store/apps/details?id=com.casuals4fun.clang_social",
-        description: [
-            "Clang Social mobile app to make life easier",
-        ],
-        domains: [
-            "java",
-            "android studio"
         ]
     },
     {
