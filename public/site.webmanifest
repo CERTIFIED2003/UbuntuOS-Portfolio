@@ -1,8 +1,8 @@
 {
-    "name": "Shubham Lal",
-    "short_name": "SL",
+    "name": "Shubham Lal | Developer",
+    "short_name": "Shubham Lal",
     "start_url": ".",
-    "prefer_related_applications": "false",
+    "prefer_related_applications": false,
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -10,9 +10,8 @@
             "type": "image/png"
         },
         {
-            "src": "/mask.png",
-            "sizes": "196x196",
-            "type": "image/png",
+            "src": "/safari-pinned-tab.svg",
+            "type": "image/svg+xml",
             "purpose": "any maskable"
         },
         {

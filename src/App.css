@@ -4,29 +4,8 @@
 
 @font-face {
   font-family: 'Ubuntu';
-  font-weight: 300;
-  src: local(sans-serif), url('/fonts/Ubuntu-Light.ttf') format('truetype');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Ubuntu';
   font-weight: 400;
   src: local(sans-serif), url('/fonts/Ubuntu-Regular.ttf') format('truetype');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Ubuntu';
-  font-weight: 500;
-  src: local(sans-serif), url('/fonts/Ubuntu-Medium.ttf') format('truetype');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Ubuntu';
-  font-weight: 700;
-  src: local(sans-serif), url('/fonts/Ubuntu-Bold.ttf') format('truetype');
   font-display: swap;
 }
 
