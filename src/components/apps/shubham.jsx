@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 import { project_list, tag_colors } from '../../projects.config';
 
 export class AboutShubham extends Component {
@@ -40,7 +40,7 @@ export class AboutShubham extends Component {
         localStorage.setItem("about-section", screen);
 
         // google analytics
-        ReactGA.pageview(`/${screen}`);
+        ReactGA.send({ hitType: "pageview", page: `/${screen}`, title: "Custom Title" });
 
         this.setState({
             screen: this.screens[screen],

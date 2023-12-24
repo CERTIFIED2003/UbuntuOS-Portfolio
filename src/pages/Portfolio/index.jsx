@@ -3,7 +3,7 @@ import BootingScreen from './components/screen/booting_screen';
 import Desktop from './components/screen/desktop';
 import LockScreen from './components/screen/lock_screen';
 import Navbar from './components/screen/navbar';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 const Portfolio = () => {
     const [state, setState] = useState({
@@ -54,7 +54,7 @@ const Portfolio = () => {
 
     const lockScreen = () => {
         // google analytics
-        ReactGA.pageview('/lock-screen');
+        ReactGA.send({ hitType: "pageview", page: "/lock-screen", title: "Lock Screen" });
         ReactGA.event({
             category: `Screen Change`,
             action: `Set Screen to Locked`
@@ -68,7 +68,7 @@ const Portfolio = () => {
     };
 
     const unLockScreen = () => {
-        ReactGA.pageview('/desktop');
+        ReactGA.send({ hitType: "pageview", page: "/desktop", title: "Custom Title" });
 
         window.removeEventListener('click', unLockScreen);
         window.removeEventListener('keypress', unLockScreen);
@@ -83,7 +83,7 @@ const Portfolio = () => {
     };
 
     const shutDown = () => {
-        ReactGA.pageview('/switch-off');
+        ReactGA.send({ hitType: "pageview", page: "/switch-off", title: "Custom Title" });
         ReactGA.event({
             category: `Screen Change`,
             action: `Switched off the Ubuntu`
@@ -95,7 +95,7 @@ const Portfolio = () => {
     };
 
     const turnOn = () => {
-        ReactGA.pageview('/desktop');
+        ReactGA.send({ hitType: "pageview", page: "/desktop", title: "Custom Title" });
 
         setState(prevState => ({ ...prevState, shutDownScreen: false, booting_screen: true }));
         setTimeOutBootScreen();
