@@ -10,7 +10,10 @@ If you want to edit this, Clone this project and edit the files in `/src/compone
 To run this on localhost
 type `npm start` and when u are done coding type `npm run build` to build your app.
 
-_NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn start` and `yarn build`._
+**NOTE**:
+- Remember to create `.env` file at root directory and add `
+VITE_TRACKING_ID = 'YOUR GOOGLE ANALYTICS TRACKING ID'`.
+- If you have yarn just replace `npm run dev` and `npm run build` with `yarn dev` and `yarn build`.
 
 <a href="https://www.buymeacoffee.com/lalshubham" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
 
@@ -25,9 +28,9 @@ _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn 
 
 ```
 
-VITE_SERVICE_ID = 'YOUR_SERVICE_ID'
-VITE_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
-VITE_USER_ID = 'YOUR_USER_ID'
+VITE_SERVICE_ID = 'YOUR EMAILJS SERVICE ID'
+VITE_TEMPLATE_ID = 'YOUR EMAILJS TEMPLATE ID'
+VITE_USER_ID = 'YOUR EMAILJS USER ID'
 
 ```
 

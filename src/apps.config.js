@@ -13,8 +13,8 @@ import displayInfix from './components/apps/infix';
 import displayTodoApp from './components/apps/todo';
 import displayGDSC_BIT from './components/apps/gdsc-bit';
 import displayDrawingApp from './components/apps/drawing';
-import displayBlog from './components/apps/blog';
 import displayMyGitHub from './components/apps/my-github';
+import displayTaskTrack from './components/apps/task-track';
 
 const apps = [
     {
@@ -109,7 +109,7 @@ const apps = [
     },
     {
         id: "reddit-clone",
-        title: "My Reddit",
+        title: "Reddit Clone",
         icon: './themes/Yaru/apps/reddit.png',
         disabled: false,
         favourite: false,
@@ -153,22 +153,22 @@ const apps = [
         screen: displayDrawingApp
     },
     {
-        id: "blog",
-        title: "Blog App",
-        icon: './themes/Yaru/apps/blog.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayBlog
-    },
-    {
         id: "github",
-        title: "My GitHub",
+        title: "GitHub Clone",
         icon: './themes/Yaru/apps/github.svg',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
         screen: displayMyGitHub
+    },
+    {
+        id: "task-track",
+        title: "Task Track",
+        icon: './themes/Yaru/apps/task-track.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayTaskTrack
     },
 ]
 
