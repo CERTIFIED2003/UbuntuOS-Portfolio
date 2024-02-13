@@ -10,7 +10,6 @@ import { displayTerminalCalc } from './components/apps/calc';
 import displayClangSocial from './components/apps/clang-social';
 import displayMyReddit from './components/apps/my-reddit';
 import displayInfix from './components/apps/infix';
-import displayTodoApp from './components/apps/todo';
 import displayGDSC_BIT from './components/apps/gdsc-bit';
 import displayDrawingApp from './components/apps/drawing';
 import displayMyGitHub from './components/apps/my-github';
@@ -124,15 +123,6 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayInfix,
-    },
-    {
-        id: "todo",
-        title: "ToDo App",
-        icon: './themes/Yaru/apps/todo.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayTodoApp,
     },
     {
         id: "settings",
