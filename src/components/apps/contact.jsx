@@ -4,7 +4,6 @@ import ReactGA from 'react-ga4';
 import emailjs from '@emailjs/browser';
 
 export class Gedit extends Component {
-
     constructor() {
         super();
         this.state = {
@@ -106,6 +105,6 @@ export class Gedit extends Component {
 
 export default Gedit;
 
-export const displayGedit = () => {
+export const displayContact = () => {
     return <Gedit> </Gedit>;
 }

@@ -14,7 +14,7 @@ function DefaultMenu(props) {
             <a rel="noreferrer noopener" href="https://github.com/Shubham-Lal" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">🤝</span> <span className="ml-2">Follow on <strong>Github</strong></span>
             </a>
-            <a rel="noreferrer noopener" href="mailto:lal.shubham027@gmail.com" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            <a rel="noreferrer noopener" href="mailto:im.shubhamlal@gmail.com" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">📥</span> <span className="ml-2">Contact Me</span>
             </a>
             <Devider />

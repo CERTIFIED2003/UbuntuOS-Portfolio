@@ -4,27 +4,20 @@ import { displayTerminal } from './components/apps/terminal';
 import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
-import { displayGedit } from './components/apps/gedit';
+import { displayContact } from './components/apps/contact';
 import { displayAboutShubham } from './components/apps/shubham';
 import { displayTerminalCalc } from './components/apps/calc';
 import displayClangSocial from './components/apps/clang-social';
-import displayMyReddit from './components/apps/my-reddit';
+import displayRedditClone from './components/apps/reddit';
 import displayInfix from './components/apps/infix';
 import displayGDSC_BIT from './components/apps/gdsc-bit';
-import displayDrawingApp from './components/apps/drawing';
-import displayMyGitHub from './components/apps/my-github';
-import displayTaskTrack from './components/apps/task-track';
+import displayWePaint from './components/apps/wepaint';
+import displayGitHubClone from './components/apps/github';
+import displayToDo from './components/apps/todo';
+import displayGuessPaint from './components/apps/guesspaint';
+import displayFaceAnalysis from './components/apps/face';
 
 const apps = [
-    {
-        id: "about-shubham",
-        title: "About Me",
-        icon: './themes/Yaru/apps/my_logo.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayAboutShubham,
-    },
     {
         id: "gdsc",
         title: "GDSC BIT",
@@ -80,13 +73,31 @@ const apps = [
         screen: displaySpotify, // My Fav Playlist 😅
     },
     {
-        id: "gedit",
-        title: "Contact Me",
-        icon: './themes/Yaru/apps/gedit.png',
+        id: "settings",
+        title: "Settings",
+        icon: './themes/Yaru/apps/gnome-control-center.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: false,
+        screen: displaySettings,
+    },
+    {
+        id: "about-shubham",
+        title: "About Me",
+        icon: './themes/Yaru/apps/my_logo.png',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: displayGedit,
+        screen: displayAboutShubham,
+    },
+    {
+        id: "contact",
+        title: "Contact Me",
+        icon: './themes/Yaru/apps/contact.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayContact,
     },
     {
         id: "trash",
@@ -96,6 +107,15 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayTrash,
+    },
+    {
+        id: "infix",
+        title: "Infix Operations",
+        icon: './themes/Yaru/apps/infix.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayInfix,
     },
     {
         id: "clang-social",
@@ -113,34 +133,7 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: displayMyReddit,
-    },
-    {
-        id: "infix",
-        title: "Infix Operations",
-        icon: './themes/Yaru/apps/infix.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayInfix,
-    },
-    {
-        id: "settings",
-        title: "Settings",
-        icon: './themes/Yaru/apps/gnome-control-center.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: false,
-        screen: displaySettings,
-    },
-    {
-        id: "drawing",
-        title: "Drawing App ",
-        icon: './themes/Yaru/apps/drawing.png',
-        disabled: false,
-        favourite: false,
-        desktop_shortcut: true,
-        screen: displayDrawingApp
+        screen: displayRedditClone,
     },
     {
         id: "github",
@@ -149,16 +142,43 @@ const apps = [
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: displayMyGitHub
+        screen: displayGitHubClone
     },
     {
-        id: "task-track",
-        title: "Task Track",
+        id: "todo-tasks",
+        title: "ToDo Tasks",
         icon: './themes/Yaru/apps/task-track.png',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
-        screen: displayTaskTrack
+        screen: displayToDo
+    },
+    {
+        id: "drawing",
+        title: "WePaint",
+        icon: './themes/Yaru/apps/drawing.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayWePaint
+    },
+    {
+        id: "guesspaint",
+        title: "GuessPaint",
+        icon: './themes/Yaru/apps/guesspaint.ico',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayGuessPaint
+    },
+    {
+        id: "face-analysis",
+        title: "Face Analysis",
+        icon: './themes/Yaru/apps/face.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayFaceAnalysis
     },
 ]
 

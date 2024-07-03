@@ -3,10 +3,53 @@ export const project_list = [
     //     name: "",
     //     date: "",
     //     link: "",
-    //     description: [
-    //     ],
-    //     domains: [""]
+    //     description: ["", ""],
+    //     domains: ["", ""]
     // },
+    {
+        name: "GuessPaint",
+        date: "June 2024",
+        link: "https://github.com/Casuals4Fun/GuessPaint",
+        description: [
+            "Join a Room: Create or join a room with your friends.",
+            "Draw and Guess: One player draws a word, and the others try to guess it. Take turns drawing and guessing.",
+            "Leaderboard: See who guesses the most words correctly and climb the leaderboard.",
+            "Time Challenge: Each round is timed, so draw and guess quickly!",
+            "Socialize: Chat among the players in the room."
+        ],
+        domains: ["socket.io", "vite", "next.js", "tailwindcss"]
+    },
+    {
+        name: "Face Analysis",
+        date: "April 2024",
+        link: "https://github.com/Shubham-Lal/Face-Analysis",
+        description: ["A simple facial analysis tool providing insights using face recognition models."],
+        domains: ["vite", "tensorflow", "face-api.js"]
+    },
+    {
+        name: "Landing Page",
+        date: "May 2024",
+        link: "https://github.com/Shubham-Lal/Thence",
+        description: [],
+        domains: ["vite"]
+    },
+    {
+        name: "Transactions Data",
+        date: "May 2024",
+        link: "https://github.com/Shubham-Lal/Transactions-Project",
+        description: [],
+        domains: ["vite", "express", "mongodb"]
+    },
+    {
+        name: "ToDo Tasks",
+        date: "January 2024",
+        link: "https://github.com/Casuals4Fun/ToDo-Tasks",
+        description: [
+            "ToDo Tasks is a single page task tracker application used for creating, updating, deleting task and do activities which is stored locally on your device.",
+            "Also added drag-and-drop functionality to reorder tasks efficiently."
+        ],
+        domains: ["vite", "redux", "react-beautiful-dnd"]
+    },
     {
         name: "Blog App v1",
         date: "November 2023",
@@ -15,341 +58,173 @@ export const project_list = [
             "Actively developing Blog App as part of my PHP and MySQL learning journey.",
             "In development mode, the project features user registration and sign-in functionalities."
         ],
-        domains: [
-            "php",
-            "mysql"
-        ]
+        domains: ["php", "mysql"]
     },
     {
         name: "GitHub Clone",
         date: "November 2023",
         link: "https://github.com/Shubham-Lal/GitHub-Clone",
-        description: [
-            "Using React APIs instead of external packages, I aim to create a full-stack experience—user accounts, login, profiles, and more, mirroring the features of the original GitHub."
-        ],
-        domains: [
-            "vite"
-        ]
+        description: ["Currently under development"],
+        domains: ["vite"]
     },
     {
-        name: "Drawing App",
+        name: "WePaint",
         date: "September 2023",
-        link: "https://github.com/Shubham-Lal/Drawing-App",
-        description: [
-            "Leveraging the power of real-time support, users can seamlessly create personalized rooms to draw together in real-time.",
-            "The project is deployed with precision, guaranteeing a secure and reliable platform for users to connect and create."
-        ],
-        domains: [
-            "nextjs",
-            "socket.io"
-        ]
+        link: "https://github.com/Casuals4Fun/WePaint",
+        description: ["WePaint is a real-time online multiplayer drawing game, allowing users to create dedicated rooms for synchronous drawing."],
+        domains: ["socket.io", "nextjs"]
     },
     {
         name: "GDSC BIT Official Site",
         date: "September 2023",
         link: "https://github.com/BIT-GDSC/GDSC-BIT",
-        description: [
-            "The official site of GDSC Bengal Institute of Technology Chapter."
-        ],
-        domains: [
-            "vite",
-            "passport.js"
-        ]
+        description: ["The official site of GDSC Bengal Institute of Technology Chapter."],
+        domains: ["vite", "passport.js"]
     },
     {
         name: "Events Scheduler",
         date: "May 2023",
         link: "https://github.com/Shubham-Lal/Events-Scheduler",
-        description: [
-            "Events Scheduler helps in scheduling events and invite guests via Google Calendar."
-        ],
-        domains: ["Google Calendar API"]
+        description: ["Events Scheduler helps in scheduling events and invite guests via Google Calendar."],
+        domains: ["google calendar api"]
     },
     {
-        name: "CrowdFunding | Support Campaigns with Ethereum",
+        name: "CrowdFunding",
         date: "April 2023",
         link: "https://github.com/Shubham-Lal/Crowdfunding-Blockchain",
-        description: [
-            "CrowdFunding allows users to create and fund projects using Ethereum, ensuring transparency and security in the crowdfunding process."
-        ],
-        domains: [
-            "solidity",
-            "tailwindcss",
-            "ethers.js"
-        ]
+        description: ["CrowdFunding allows users to create and fund projects using Ethereum, ensuring transparency and security in the crowdfunding process."],
+        domains: ["solidity", "tailwindcss", "ethers.js"]
     },
     {
-        name: "Krypt | Blockchain Transaction",
+        name: "Krypt",
         date: "April 2023",
         link: "https://github.com/Shubham-Lal/Krypt-Blockchain-Transaction",
-        description: [
-            "Krypt is a personal project that documents my initial foray into the world of Web3 development. Transfer of Sepolia Ethereum and post a message with gif to be stored in Blockchain network."
-        ],
-        domains: [
-            "solidity",
-            "tailwindcss",
-            "ethers.js"
-        ]
+        description: ["Krypt is a personal project that documents my initial foray into the world of Web3 development. Transfer of Sepolia Ethereum and post a message with gif to be stored in Blockchain network."],
+        domains: ["solidity", "tailwindcss", "ethers.js"]
     },
     {
-        name: "ToDo App",
-        date: "April 2023",
-        link: "https://github.com/Shubham-Lal/ToDo-Internship",
-        description: [
-            "Full Stack Todo Application. Frontend made with Vite and MongoDB used as Database for Backend. Used Redux for CRUD applications"
-        ],
-        domains: [
-            "redux",
-            "mongodb",
-            "sass"
-        ]
-    },
-    {
-        name: "CertyStore | E-Commerce Site",
+        name: "CertyStore",
         date: "March 2023",
         link: "https://github.com/Shubham-Lal/ECommerce-Site-v2",
-        description: [
-            "Full Stack E-Commerce Web App with fully functional Admin's Dashboard"
-        ],
-        domains: [
-            "mern",
-            "express",
-            "reactjs",
-            "node",
-            "redux",
-            "tailwindcss"
-        ]
-    },
-    {
-        name: "Login with IP System",
-        date: "March 2023",
-        link: "https://github.com/Shubham-Lal/Login-with-IP-System",
-        description: [
-            "A simple authentication system. Login for Student, Teacher & Admin. For Student authentication, there is a predefined IP Address env variable assigned in the backend (NETWORK_IP)."
-        ],
-        domains: [
-            "mern",
-            "express",
-            "reactjs",
-            "node"
-        ]
-    },
-    {
-        name: "Twitter Clone",
-        date: "Feb 2023",
-        link: "https://github.com/Shubham-Lal/Twitter-Clone",
-        description: [
-            "Awesome looking Twitter clone build using NextJS + TailwindCSS. Firebase v9 integrated for post creation and file storage. With the support of NewsAPI making this application super awesome.",
-        ],
-        domains: [
-            "nextjs",
-            "firebase-auth",
-            "firebase-database"
-        ]
+        description: ["Full Stack E-Commerce Web App with fully functional Admin's Dashboard"],
+        domains: ["mern", "redux", "tailwindcss"]
     },
     {
         name: "Reddit Clone",
         date: "Feb 2023",
         link: "https://github.com/Shubham-Lal/Reddit-Clone",
-        description: [
-            "An awesome Reddit clone made with nextjs framework, used Chakra UI for CSS design & Firebase services for entire application's NoSQL.",
-        ],
-        domains: [
-            "nextjs",
-            "typescript",
-            "chakra-ui",
-            "firebase-auth",
-            "firebase-database",
-            "firebase-storage"
-        ]
+        description: ["An awesome Reddit clone made with nextjs framework, used Chakra UI for CSS design & Firebase services for entire application's NoSQL."],
+        domains: ["nextjs", "typescript", "chakra-ui", "firebase-auth", "firebase-database", "firebase-storage"]
     },
     {
         name: "Questions Answering AI",
         date: "Jan 2023",
         link: "https://github.com/Shubham-Lal/question-answering-ai",
-        description: [
-            "Powerful Query answering AI tool build with Vite, OPENAI & Tailwindcss.",
-        ],
-        domains: [
-            "vite",
-            "openai",
-            "tailwindcss",
-            "javascript"
-        ]
+        description: ["AI Chatbot build with Vite, OPENAI & Tailwindcss."],
+        domains: ["vite", "openai", "tailwindcss"]
     },
     {
         name: "Image Generator AI",
         date: "Jan 2023",
         link: "https://github.com/Shubham-Lal/image-generator-ai",
-        description: [
-            "Think of an awesome imagination and make it surreal with this awesome Image Generator AI",
-        ],
-        domains: [
-            "vite",
-            "tailwindcss",
-            "javascript"
-        ]
+        description: ["Think of an awesome imagination and make it surreal with this awesome Image Generator AI"],
+        domains: ["vite", "tailwindcss"]
     },
     {
         name: "UbuntuOS",
         date: "Jan 2023",
-        link: "https://github.com/Shubham-Lal/ubuntuOS-playground",
-        description: [
-            "Website of theme Ubuntu 20.04, made using NEXT.js (also Vite) & Tailwind CSS",
-        ],
-        domains: [
-            "next.js",
-            "vite",
-            "tailwindcss",
-            "javascript"
-        ]
+        link: "https://github.com/Shubham-Lal/Portfolio-v2",
+        description: ["Ubuntu themed portfolio site."],
+        domains: ["next.js", "vite", "tailwindcss"]
     },
     {
         name: "Clang Social App",
         noview: true,
         date: "Jan 2023",
         link: "https://play.google.com/store/apps/details?id=com.casuals4fun.clang_social",
-        description: [
-            "Clang Social mobile app to make life easier",
-        ],
-        domains: [
-            "java",
-            "android studio"
-        ]
+        description: [],
+        domains: ["java", "android studio"]
     },
     {
         name: "Clang Social v2",
-        noview: true,
+        // noview: true,
         date: "Dec 2022",
-        link: "https://clangsocial.netlify.app",
-        description: [
-            "A free-speech social media app where user can video chat, share their thoughts, images, follow and add friends. So what are you waiting for. Dive into this cool social media platform.",
-        ],
-        domains: [
-            "reactjs",
-            "mongodb",
-            "javascript"
-        ]
+        link: "https://github.com/Casuals4Fun/ClangSocial",
+        description: ["A simple social media app where user can video chat, share their thoughts, images, follow and add friends"],
+        domains: ["mern"]
     },
     {
         name: "Clang Social v1",
-        noview: true,
+        // noview: true,
         date: "Nov 2022",
-        link: "https://clang-social.netlify.app",
-        description: [
-            "Powered by Sanity databse, this social media app can be used to share images to the community out there.",
-        ],
-        domains: [
-            "reactjs",
-            "sanity",
-            "javascript"
-        ]
+        link: "https://github.com/Shubham-Lal/ClangSocial-v1",
+        description: ["Powered by Sanity databse, this social media app can be used to share images to the community out there.",],
+        domains: ["react.js", "sanity"]
     },
     {
         name: "Keeper",
         date: "Dec 2022",
-        link: "https://github.com/Shubham-Lal/keeper_frontend",
-        description: [
-            "A very much Google Keep lookalike clone.",
-        ],
-        domains: [
-            "reactjs",
-            "javascript"
-        ]
+        link: "https://github.com/Shubham-Lal/Keeper",
+        description: ["A very much Google Keep lookalike clone."],
+        domains: ["mern"]
     },
     {
         name: "Infix Operations",
-        noview: true,
+        // noview: true,
         date: "Dec 2022",
-        link: "https://Shubham-Lal.github.io/infix_operation",
-        description: [
-            "An ultimate Infix Expressions problem solver. Over 10+ hours used to complete the project and bugs fix.",
-        ],
-        domains: [
-            "html",
-            "css",
-            "javascript"
-        ]
+        link: "https://github.com/Shubham-Lal/Infix-Operation",
+        description: ["An ultimate Infix Expressions problem solver."],
+        domains: ["html", "css", "javascript"]
     },
     {
         name: "HammerOBots",
         noview: true,
         date: "Jul 2022",
         link: "https://play.google.com/store/apps/details?id=com.Casuals4Fun.HammerOBots",
-        description: [
-            "An epic battle between Mech robot and Evil Enemy Invasion on a island that has been abandoned and is deserted island long since.",
-        ],
-        domains: [
-            "unreal engine"
-        ]
+        description: ["An epic battle between Mech robot and Evil Enemy Invasion on a island that has been abandoned and is deserted island long since."],
+        domains: ["unreal engine 4"]
     },
     {
-        name: "Face Recognition System + Attendance System",
+        name: "Face Recognition + Attendance",
         date: "Aug 2022",
-        link: "https://github.com/Shubham-Lal/FacialRecognitionSystem-withAttendance",
-        description: [
-            "This Project was made specifically for one of my Drone Projects to get Attendance of the acknowledged Personalities.",
-        ],
-        domains: [
-            "python"
-        ]
+        link: "https://github.com/Shubham-Lal/Facial-Recognition-Attendance",
+        description: ["This Project was made specifically for one of my Drone Projects to get Attendance of the acknowledged Personalities."],
+        domains: ["python"]
     },
     {
-        name: "Face Mask Detection System",
+        name: "Face Mask Detection",
         date: "Aug 2022",
         link: "https://github.com/Shubham-Lal/Face-Mask-Detection",
-        description: [
-            "This Project was made to distinguish the individuals whether they are wearing Mask or not. The model of this is trained by the images of the people wearing mask and those who are without mask.",
-        ],
-        domains: [
-            "python"
-        ]
+        description: ["This Project was made to distinguish the individuals whether they are wearing Mask or not. The model of this is trained by the images of the people wearing mask and those who are without mask."],
+        domains: ["python"]
     },
     {
-        name: "Items Detector AI",
+        name: "Items Detector",
         date: "Aug 2022",
-        link: "https://github.com/Shubham-Lal/Items-Detector-AI",
-        description: [
-            "This Project can help identify the objects throughout the live feed and can be explicitly used for the Security.",
-        ],
-        domains: [
-            "python"
-        ]
+        link: "https://github.com/Shubham-Lal/Items-Detector",
+        description: ["This Project can help identify the objects throughout the live feed and can be explicitly used for the Security.",],
+        domains: ["python"]
     },
     {
         name: "J.A.R.V.I.S",
         date: "Aug 2022",
-        link: "https://github.com/Shubham-Lal/VoiceDetection-AI",
-        description: [
-            "An intelligent voice recognition software to make life easier.",
-        ],
-        domains: [
-            "python"
-        ]
+        link: "https://github.com/Shubham-Lal/JARVIS",
+        description: ["An simple voice recognition software to make life easier."],
+        domains: ["python"]
     },
     {
         name: "Space Shooter Game",
         date: "Sep 2022",
-        link: "https://github.com/Shubham-Lal/py-game",
-        description: [
-            "A casual space arcade game made with the help of Python's 'pygame' library.",
-        ],
-        domains: [
-            "pygame",
-            "python"
-        ]
+        link: "https://github.com/Shubham-Lal/SpaceShooter",
+        description: ["A casual space arcade game made with the help of Python's 'pygame' library."],
+        domains: ["pygame", "python"]
     },
     {
         name: "Tic-Tac-Toe Game",
         date: "Oct 2022",
-        link: "https://github.com/Shubham-Lal/TicTacToe_Apk-usingJAVA",
-        description: [
-            "A basic android tic-tac-toe game.",
-        ],
-        domains: [
-            "java",
-            "android studio"
-        ]
+        link: "https://github.com/Shubham-Lal/TicTacToe",
+        description: ["A basic android tic-tac-toe game."],
+        domains: ["java", "android studio"]
     },
 ];
 

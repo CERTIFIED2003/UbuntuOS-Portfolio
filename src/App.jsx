@@ -5,8 +5,6 @@ import './App.css'
 const TRACKING_ID = import.meta.env.VITE_TRACKING_ID;
 ReactGA.initialize(TRACKING_ID);
 
-function App() {
+export default function App() {
   return <Portfolio />
 }
-
-export default App

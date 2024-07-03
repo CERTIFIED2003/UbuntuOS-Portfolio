@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import $ from 'jquery';
-// const Parser = require('expr-eval').Parser;
 import { Parser } from 'expr-eval';
 
 const parser = new Parser({
