@@ -127,7 +127,7 @@ function About() {
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>My name is <span className="font-bold">Shubham Lal</span> ,</div>
-                <div className="font-normal ml-1">I&apos;m a <span className="text-pink-600 font-bold">Developer</span>.</div>
+                <div className="font-normal ml-1">I&apos;m a <span className="text-pink-600 font-bold">Junior Developer</span>.</div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-0"></div>
@@ -135,13 +135,13 @@ function About() {
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-pc">I&apos;m a <span className=" font-medium">Student</span> currently pursuing Computer Science.
-                    I&apos;ve completed my 5th Semester at
+                    I&apos;ve completed my 6th Semester at
                     <u className=' cursor-pointer '> <a href="https://www.bitcollege.in/" target={"_blank"} rel="noreferrer" className='text-red-600'>Bengal Institute of Technology</a> </u>,
-                    and now I&apos;m looking for Summer&apos;24 Internship opportunities!
-                    Hit me up <a className='text-underline' href='mailto:contact@shubhamlal.in'><u>@contact@shubhamlal.in</u></a>
+                    and now I&apos;m looking for Winter&apos;24 Internship opportunities!
+                    Hit me up <a className='text-underline' href='mailto:contact@shubhamlal.in'><u>im.shubhamlal@gmail.com</u></a>
                 </li>
                 <li className=" mt-3 list-building">Actively engaged in building efficient back-end solutions.</li>
-                <li className=" mt-3 list-time">When I am not coding my next project, I like to spend my time working on web development, working on game projects or watching <a href="https://www.youtube.com/@Hyperplexed" className='underline text-cyan-500' target="_blank" rel="noreferrer"> Hyperplexed&apos;s videos</a>.</li>
+                <li className=" mt-3 list-time">When I am not coding, I like to spend my time working on game projects or watching <a href="https://www.youtube.com/@Hyperplexed" className='underline text-cyan-500' target="_blank" rel="noreferrer"> Hyperplexed&apos;s videos</a>.</li>
                 <li className=" mt-3 mb-4 list-star">And I also have interest in Artificial Intelligence & Blockchain! Currently exploring Web3🚀</li>
             </ul>
         </>
@@ -207,39 +207,58 @@ function Experience() {
             <ul className=" w-10/12 my-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className="flex flex-col lg:flex-row gap-0.5 lg:gap-2 lg:items-center">
-                        <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                            AI Chef Master
+                        <div className="text-lg md:text-xl text-left font-bold leading-tight">
+                            <a href="https://github.com/Casuals4Fun" target="_blank" rel="noreferrer noopener" style={{ textDecoration: 'underline' }}>
+                                Casuals4Fun
+                            </a>
                         </div>
-                        <div className=" text-sm text-gray-400">Feb 2024 - Present</div>
+                        <div className=" text-sm text-gray-400">Jun 2022 - Present</div>
                     </div>
-                    <div className=" text-sm md:text-base">Frontend Developer Intern</div>
+                    <div className="mt-0.5 text-sm md:text-base">Lead Developer</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className="flex flex-col lg:flex-row gap-0.5 lg:gap-2 lg:items-center">
-                        <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                            GDSC Bengal Institute of Technology
+                        <div className="text-lg md:text-xl text-left font-bold leading-tight">
+                            <a href="https://www.linkedin.com/company/gdsc-bengal-institute-of-technology" target="_blank" rel="noreferrer noopener" style={{ textDecoration: 'underline' }}>
+                                GDSC BIT
+                            </a>
                         </div>
-                        <div className=" text-sm text-gray-400">Sep 2023 - Present</div>
+                        <div className="text-sm text-gray-400">Sep 2023 - Jun 2024</div>
                     </div>
-                    <div className=" text-sm md:text-base">Lead Web Developer</div>
+                    <div className="mt-0.5 text-sm md:text-base">Web Dev Lead</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className="flex flex-col lg:flex-row gap-0.5 lg:gap-2 lg:items-center">
-                        <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                            eZ- "The One" App
+                        <div className="text-lg md:text-xl text-left font-bold leading-tight">
+                            <a href="https://www.linkedin.com/company/aichefmaster" target="_blank" rel="noreferrer noopener" style={{ textDecoration: 'underline' }}>
+                                AI Chef Master
+                            </a>
                         </div>
-                        <div className=" text-sm text-gray-400">Aug 2023 - Oct 2023</div>
+                        <div className="text-sm text-gray-400">Mar 2024 - May 2024</div>
                     </div>
-                    <div className=" text-sm md:text-base">Back-End Developer Intern</div>
+                    <div className="mt-0.5 text-sm md:text-base">Frontend Developer Intern</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className="flex flex-col lg:flex-row gap-0.5 lg:gap-2 lg:items-center">
-                        <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                            freeCodeCamp
+                        <div className="text-lg md:text-xl text-left font-bold leading-tight">
+                            <a href="https://www.linkedin.com/company/ez-the-one-app" target="_blank" rel="noreferrer noopener" style={{ textDecoration: 'underline' }}>
+                                eZ- "The One" App
+                            </a>
                         </div>
-                        <div className=" text-sm text-gray-400">May 2023 - Jun 2023</div>
+                        <div className="text-sm text-gray-400">Aug 2023 - Oct 2023</div>
                     </div>
-                    <div className=" text-sm md:text-base">Open Source Developer</div>
+                    <div className="mt-0.5 text-sm md:text-base">Backend Developer Intern</div>
+                </li>
+                <li className="list-disc mt-5">
+                    <div className="flex flex-col lg:flex-row gap-0.5 lg:gap-2 lg:items-center">
+                        <div className="text-lg md:text-xl text-left font-bold leading-tight">
+                            <a href="https://github.com/freeCodeCamp/freeCodeCamp/commits?author=Shubham-Lal" target="_blank" rel="noreferrer noopener" style={{ textDecoration: 'underline' }}>
+                                freeCodeCamp
+                            </a>
+                        </div>
+                        <div className="text-sm text-gray-400">May 2023 - Jun 2023</div>
+                    </div>
+                    <div className="mt-0.5 text-sm md:text-base">Open Source Developer</div>
                 </li>
             </ul>
         </>
@@ -283,11 +302,11 @@ function Skills() {
                 </div>
                 <div className="px-2 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="shubham next" />
-                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="shubham react" />
-                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="shubham tailwind css" />
-                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="shubham node.js" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="shubham redux" />
+                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="node.js" className="m-1" />
+                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="react" />
+                        <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="next" />
+                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="tailwindcss" />
+                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="redux" />
                     </div>
                 </div>
             </div>
