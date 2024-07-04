@@ -156,7 +156,7 @@ const apps = [
     {
         id: "drawing",
         title: "WePaint",
-        icon: './themes/Yaru/apps/drawing.png',
+        icon: './themes/Yaru/apps/wepaint.svg',
         disabled: false,
         favourite: false,
         desktop_shortcut: true,
