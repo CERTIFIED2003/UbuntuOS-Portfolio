@@ -20,27 +20,6 @@ export const project_list = [
         domains: ["socket.io", "vite", "next.js", "tailwindcss"]
     },
     {
-        name: "Face Analysis",
-        date: "April 2024",
-        link: "https://github.com/Shubham-Lal/Face-Analysis",
-        description: ["A simple facial analysis tool providing insights using face recognition models."],
-        domains: ["vite", "tensorflow", "face-api.js"]
-    },
-    {
-        name: "Landing Page",
-        date: "May 2024",
-        link: "https://github.com/Shubham-Lal/Thence",
-        description: [],
-        domains: ["vite"]
-    },
-    {
-        name: "Transactions Data",
-        date: "May 2024",
-        link: "https://github.com/Shubham-Lal/Transactions-Project",
-        description: [],
-        domains: ["vite", "express", "mongodb"]
-    },
-    {
         name: "ToDo Tasks",
         date: "January 2024",
         link: "https://github.com/Casuals4Fun/ToDo-Tasks",
